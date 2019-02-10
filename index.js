@@ -23,7 +23,7 @@ const addRepos = (repositories) => {
         .sort((a, b) => new Date(b.updated_at).getTime() - new Date(a.updated_at).getTime())
         .reduce((markup, repo) => repo.fork ? markup : markup + `
             <li class="link">
-                <a href="${repo.url}" target="_blank" rel="noopener noreferrer">${repo.name}${repo.stargazers_count ? `(🌟 ${repo.stargazers_count})` : ''}</a>
+                <a href="${repo.html_url}" target="_blank" rel="noopener noreferrer">${repo.name}${repo.stargazers_count ? `(🌟 ${repo.stargazers_count})` : ''}</a>
             </li>
         `, '');
 

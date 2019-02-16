@@ -275,7 +275,7 @@ section.main {
     padding: 3em 0;
 }
 
-.link {
+.links li {
     padding-bottom: .5em;
 }
 
@@ -324,7 +324,7 @@ li {
     display: inline;
 }
 
-li.link:not(:last-child):after {
+links li:not(:last-child):after {
     content: '|';
     font-size: 12px;
     padding: 0 5px;

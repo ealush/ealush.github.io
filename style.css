@@ -324,7 +324,7 @@ li {
     display: inline;
 }
 
-links li:not(:last-child):after {
+.links li:not(:last-child):after {
     content: '|';
     font-size: 12px;
     padding: 0 5px;

@@ -1,6 +1,8 @@
 const $repos = document.getElementById('repos');
 const $main = document.getElementById('main');
 
+let serviceWorker, swRegistration;
+
 const convert = (oldMin, oldMax, newMin, newMax, oldValue) => (
     (((oldValue - oldMin) * (newMax - newMin)) / (oldMax - oldMin)) + newMin
 );
@@ -30,10 +32,41 @@ const addRepos = (repositories) => {
     $repos.innerHTML = html;
 };
 
-
 Promise.all([
     fetch('https://api.github.com/repos/fiverr/passable').then(res => res.json()),
     fetch('https://api.github.com/users/ealush/repos').then(res => res.json()),
 ]).then((res) => {
     addRepos([res[0], ...res[1]])
 });
+
+const startServiceWorker = async() => {
+    swRegistration = await navigator.serviceWorker.register('/serviceworker.js', {
+        updateViaCache: 'none'
+    });
+
+    vent(navigator.serviceWorker).on('controllerchange', () => {
+        serviceWorker = navigator.serviceWorker.controller;
+    });
+
+    vent(navigator.serviceWorker).on('message', onIncomingMessage);
+}
+
+const onIncomingMessage = (event) => {
+    var { data } = event;
+
+
+
+    console.log(data);
+}
+
+const sendMessage = (msg, target) => {
+    if (target) {
+        target.postMessage(msg);
+    } else if (serviceWorker) {
+        serviceWorker.postMessage(msg);
+    } else {
+        navigator.serviceWorker.controller.postMessage(msg);
+    }
+}
+
+startServiceWorker();

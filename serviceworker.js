@@ -1,4 +1,9 @@
-const GIT_REPOS = [
+const URLS = [
+    'face.jpg',
+    'favicon.ico',
+    'index.html',
+    'index.js',
+    'style.css',
     'https://api.github.com/repos/fiverr/passable',
     'https://api.github.com/users/ealush/repos'
 ];
@@ -33,8 +38,7 @@ async function handleActivation() {
 
 const cacheRepositories = async () => {
     const cache = await caches.open(CACHE_NAME);
-
-    await cache.addAll(GIT_REPOS);
+    await cache.addAll(URLS);
     return self.skipWaiting();
 }
 

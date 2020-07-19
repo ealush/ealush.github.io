@@ -53,10 +53,6 @@ const startServiceWorker = async() => {
 
 const onIncomingMessage = (event) => {
     var { data } = event;
-
-
-
-    console.log(data);
 }
 
 const sendMessage = (msg, target) => {

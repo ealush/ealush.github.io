@@ -34,7 +34,7 @@ const addRepos = (repositories) => {
 
 Promise.all([
     fetch('https://api.github.com/repos/fiverr/passable').then(res => res.json()),
-    fetch('https://api.github.com/users/ealush/repos').then(res => res.json()),
+    fetch('https://api.github.com/users/ealush/repos?per_page=100').then(res => res.json()),
 ]).then((res) => {
     addRepos([res[0], ...res[1]])
 });

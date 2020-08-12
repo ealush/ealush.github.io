@@ -1,0 +1,353 @@
+:root {
+  --bg-dark: #212121;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: #9E9E9E;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Rubik', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .grid {
+    position: relative;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 auto;
+    flex-flow: row wrap;
+  }
+
+  .center {
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .grid > [class*=col-], .grid > .row {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    flex-basis: 100%;
+    max-width: 100%;
+    padding: 0 12px;
+    flex-direction: row;
+  }
+  .grid > .col-1-xs {
+    flex-basis: 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+  .grid > .col-2-xs {
+    flex-basis: 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+  .grid > .col-3-xs {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+  .grid > .col-4-xs {
+    flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+  .grid > .col-5-xs {
+    flex-basis: 41.6666666667%;
+    max-width: 41.6666666667%;
+  }
+  .grid > .col-6-xs {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .grid > .col-7-xs {
+    flex-basis: 58.3333333333%;
+    max-width: 58.3333333333%;
+  }
+  .grid > .col-8-xs {
+    flex-basis: 66.6666666667%;
+    max-width: 66.6666666667%;
+  }
+  .grid > .col-9-xs {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+  .grid > .col-10-xs {
+    flex-basis: 83.3333333333%;
+    max-width: 83.3333333333%;
+  }
+  .grid > .col-11-xs {
+    flex-basis: 91.6666666667%;
+    max-width: 91.6666666667%;
+  }
+  .grid > .col-12-xs {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .grid.center-xs {
+    justify-content: center;
+    text-align: center;
+  }
+
+  @media only screen and (min-width: 600px) {
+    .grid > .col-1-sm {
+      flex-basis: 8.3333333333%;
+      max-width: 8.3333333333%;
+    }
+    .grid > .col-2-sm {
+      flex-basis: 16.6666666667%;
+      max-width: 16.6666666667%;
+    }
+    .grid > .col-3-sm {
+      flex-basis: 25%;
+      max-width: 25%;
+    }
+    .grid > .col-4-sm {
+      flex-basis: 33.3333333333%;
+      max-width: 33.3333333333%;
+    }
+    .grid > .col-5-sm {
+      flex-basis: 41.6666666667%;
+      max-width: 41.6666666667%;
+    }
+    .grid > .col-6-sm {
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+    .grid > .col-7-sm {
+      flex-basis: 58.3333333333%;
+      max-width: 58.3333333333%;
+    }
+    .grid > .col-8-sm {
+      flex-basis: 66.6666666667%;
+      max-width: 66.6666666667%;
+    }
+    .grid > .col-9-sm {
+      flex-basis: 75%;
+      max-width: 75%;
+    }
+    .grid > .col-10-sm {
+      flex-basis: 83.3333333333%;
+      max-width: 83.3333333333%;
+    }
+    .grid > .col-11-sm {
+      flex-basis: 91.6666666667%;
+      max-width: 91.6666666667%;
+    }
+    .grid > .col-12-sm {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+    .grid.center-sm {
+      justify-content: center;
+      text-align: center;
+    }
+    .grid > [class*=col-] {
+      padding: 0 32px;
+    }
+  }
+  @media only screen and (min-width: 900px) {
+    .grid > .col-1-md {
+      flex-basis: 8.3333333333%;
+      max-width: 8.3333333333%;
+    }
+    .grid > .col-2-md {
+      flex-basis: 16.6666666667%;
+      max-width: 16.6666666667%;
+    }
+    .grid > .col-3-md {
+      flex-basis: 25%;
+      max-width: 25%;
+    }
+    .grid > .col-4-md {
+      flex-basis: 33.3333333333%;
+      max-width: 33.3333333333%;
+    }
+    .grid > .col-5-md {
+      flex-basis: 41.6666666667%;
+      max-width: 41.6666666667%;
+    }
+    .grid > .col-6-md {
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+    .grid > .col-7-md {
+      flex-basis: 58.3333333333%;
+      max-width: 58.3333333333%;
+    }
+    .grid > .col-8-md {
+      flex-basis: 66.6666666667%;
+      max-width: 66.6666666667%;
+    }
+    .grid > .col-9-md {
+      flex-basis: 75%;
+      max-width: 75%;
+    }
+    .grid > .col-10-md {
+      flex-basis: 83.3333333333%;
+      max-width: 83.3333333333%;
+    }
+    .grid > .col-11-md {
+      flex-basis: 91.6666666667%;
+      max-width: 91.6666666667%;
+    }
+    .grid > .col-12-md {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+    .grid.center-md {
+      justify-content: center;
+      text-align: center;
+    }
+    .grid > [class*=col-] {
+      padding: 0 8px;
+    }
+  }
+  @media only screen and (min-width: 1160px) {
+    .grid > .col-1-lg {
+      flex-basis: 8.3333333333%;
+      max-width: 8.3333333333%;
+    }
+    .grid > .col-2-lg {
+      flex-basis: 16.6666666667%;
+      max-width: 16.6666666667%;
+    }
+    .grid > .col-3-lg {
+      flex-basis: 25%;
+      max-width: 25%;
+    }
+    .grid > .col-4-lg {
+      flex-basis: 33.3333333333%;
+      max-width: 33.3333333333%;
+    }
+    .grid > .col-5-lg {
+      flex-basis: 41.6666666667%;
+      max-width: 41.6666666667%;
+    }
+    .grid > .col-6-lg {
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+    .grid > .col-7-lg {
+      flex-basis: 58.3333333333%;
+      max-width: 58.3333333333%;
+    }
+    .grid > .col-8-lg {
+      flex-basis: 66.6666666667%;
+      max-width: 66.6666666667%;
+    }
+    .grid > .col-9-lg {
+      flex-basis: 75%;
+      max-width: 75%;
+    }
+    .grid > .col-10-lg {
+      flex-basis: 83.3333333333%;
+      max-width: 83.3333333333%;
+    }
+    .grid > .col-11-lg {
+      flex-basis: 91.6666666667%;
+      max-width: 91.6666666667%;
+    }
+    .grid > .col-12-lg {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+    .grid.center-lg {
+      justify-content: center;
+      text-align: center;
+    }
+    .grid > [class*=col-] {
+      padding: 0 32px;
+    }
+  }
+
+  /* custom */
+  section {
+    box-sizing: border-box;
+}
+
+section.main {
+    background: #000 url(https://source.unsplash.com/ay53qag90W8/1600x900);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 6em);
+    padding: 3em 0;
+}
+
+section.content {
+  background: var(--bg-dark);
+}
+
+.links li {
+    padding-bottom: .5em;
+}
+
+.paint {
+  color: #E91E63;
+}
+
+.face {
+  background-image: url(https://gitcdn.xyz/cdn/ealush/me/09c4cfcb13e992fa6fd45ca0ce088664bf20ce38/face.jpg);
+  border-radius: 50%;
+  background-size: 8em;
+  min-height: 8em;
+  width: 8em;
+}
+
+a {
+  text-decoration: none;
+  color: #E91E63;
+  padding: 2px 4px;
+}
+
+a:hover {
+  color: #D0054A;
+  text-decoration: underline;
+  background: rgb(198, 175, 183, .2);
+  border-radius: 3px;
+  transition: background .2s;
+}
+
+a:active {
+  color: #FF387D;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  line-height: 1.5em;
+}
+
+ul {
+    padding-bottom: 2em;
+}
+
+li {
+    display: inline;
+}
+
+.links li:not(:last-child):after {
+    content: '|';
+    font-size: 12px;
+    padding: 0 5px;
+}
+
+h1 {
+  font-size: 4em;
+  margin: .5em 0;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 1em 0!important;
+}
+
+h1, h2 {
+    color: #FAFAFA;
+}

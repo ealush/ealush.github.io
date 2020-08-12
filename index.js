@@ -1,68 +1,70 @@
-const $repos = document.getElementById('repos');
-const $main = document.getElementById('main');
+const fs = require("fs");
+const phrase = require("paraphrase/double");
+const { graphql } = require("@octokit/graphql");
 
-let serviceWorker, swRegistration;
+const template = fs.readFileSync("./index.tmpl", "utf8");
 
-const convert = (oldMin, oldMax, newMin, newMax, oldValue) => (
-    (((oldValue - oldMin) * (newMax - newMin)) / (oldMax - oldMin)) + newMin
-);
-
-vent(window).on('scroll', (e) => {
-    const mainHeight = $main.clientHeight;
-    const posY = convert(0, mainHeight, 0, 100, window.scrollY);
-    $main.style.backgroundPositionY = `${posY}%`;
+const authQuery = graphql.defaults({
+  headers: {
+    authorization: `token ${process.env.GITHUB_TOKEN}`,
+  },
 });
 
-vent('h2').on('click', ({ target }) => {
-    target.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-    });
-});
+const repoQuery = `{
+  user(login: "ealush") {
+    repositories(first: 100, isFork: false, privacy: PUBLIC, affiliations: [OWNER]) {
+      nodes {
+        url
+        name
+        updatedAt
+        stars: stargazers {
+          totalCount
+        }
+      }
+    }
+  }
+}
+`;
 
-const addRepos = (repositories) => {
-    const html = [...repositories]
-        .sort((a, b) => new Date(b.updated_at).getTime() - new Date(a.updated_at).getTime())
-        .reduce((markup, repo) => repo.fork ? markup : markup + `
-            <li>
-                <a href="${repo.html_url}" target="_blank" rel="noopener noreferrer">${repo.name}${repo.stargazers_count ? `(🌟 ${repo.stargazers_count})` : ''}</a>
-            </li>
-        `, '');
-
-    $repos.innerHTML = html;
+const fetchRepos = async () => {
+  try {
+    const res = await authQuery(repoQuery);
+    return res?.user?.repositories?.nodes ?? null;
+  } catch {
+    return null;
+  }
 };
 
-Promise.all([
-    fetch('https://api.github.com/repos/fiverr/passable').then(res => res.json()),
-    fetch('https://api.github.com/users/ealush/repos?per_page=100').then(res => res.json()),
-]).then((res) => {
-    addRepos([res[0], ...res[1]])
-});
+const parseRepo = (repo) => {
+  const { url, name, updatedAt, stars } = repo;
 
-const startServiceWorker = async() => {
-    swRegistration = await navigator.serviceWorker.register('/serviceworker.js', {
-        updateViaCache: 'none'
-    });
+  return {
+    url,
+    name,
+    updatedAt: new Date(updatedAt).getTime(),
+    stars: stars.totalCount,
+  };
+};
 
-    vent(navigator.serviceWorker).on('controllerchange', () => {
-        serviceWorker = navigator.serviceWorker.controller;
-    });
+const genMarkup = (repo) =>
+  `<a href="${repo.url}" target="_blank" rel="noopener noreferrer">${repo.name}(🌟 ${repo.stars})</a>`;
 
-    vent(navigator.serviceWorker).on('message', onIncomingMessage);
-}
+const prepareTemplate = async () => {
+  const repos = await fetchRepos();
+  if (!Array.isArray(repos)) {
+    return;
+  }
 
-const onIncomingMessage = (event) => {
-    var { data } = event;
-}
+  const REPOSITEORIES = repos
+    .map(parseRepo)
+    .filter(({ stars }) => !!stars)
+    .sort((a, b) => b.updatedAt - a.updatedAt)
+    .map(genMarkup)
+    .join("");
 
-const sendMessage = (msg, target) => {
-    if (target) {
-        target.postMessage(msg);
-    } else if (serviceWorker) {
-        serviceWorker.postMessage(msg);
-    } else {
-        navigator.serviceWorker.controller.postMessage(msg);
-    }
-}
+  const out = phrase(template, { REPOSITEORIES });
 
-startServiceWorker();
+  fs.writeFileSync("./ealush/index.html", out, "utf8");
+};
+
+prepareTemplate();

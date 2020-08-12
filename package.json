@@ -1,5 +1,6 @@
 {
-  "devDependencies": {
-    "express": "^4.17.1"
+  "dependencies": {
+    "@octokit/graphql": "^4.5.3",
+    "paraphrase": "^1.8.0"
   }
 }

@@ -1,0 +1,11 @@
+language: node_js
+node_js: 14
+cache: yarn
+jobs:
+  include:
+    - stage: Build
+      install: yarn install --frozen-lockfile
+      script:
+        - git clone https://github.com/ealush/ealush.github.io.git ealush --depth 1
+        - node ./index.js
+        - sh ./push.sh

@@ -47,7 +47,7 @@ const parseRepo = (repo) => {
 };
 
 const genMarkup = (repo) =>
-  `<a href="${repo.url}" target="_blank" rel="noopener noreferrer">${repo.name}(🌟 ${repo.stars})</a>`;
+  `<li><a href="${repo.url}" target="_blank" rel="noopener noreferrer">${repo.name}(🌟 ${repo.stars})</a></li>`;
 
 const prepareTemplate = async () => {
   const repos = await fetchRepos();

@@ -1,0 +1,30 @@
+name: update
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.x]
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Install
+        run: yarn install --frozen-lockfile
+      - name: Generate
+        run: node ./scripts/update/update.js
+      - name: Push
+        run: sh ./scripts/push.js
+        env:
+          GIT_TOKEN: ${{secrets.GIT_TOKEN}}
+          EMAIL_ADDRESS: ${{secrets.EMAIL_ADDRESS}}

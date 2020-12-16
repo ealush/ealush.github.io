@@ -1,9 +1,10 @@
-name: update
+name: Update
 
 on:
   push:
-    branches:
-      - master
+    branches: master
+
+  workflow_dispatch:
 
 jobs:
   build:
@@ -11,6 +12,7 @@ jobs:
     strategy:
       matrix:
         node-version: [14.x]
+
     steps:
       - uses: actions/checkout@v2
         with:
@@ -22,9 +24,9 @@ jobs:
       - name: Install
         run: yarn install --frozen-lockfile
       - name: Generate
-        run: node ./scripts/update/update.js
-      - name: Push
-        run: sh ./scripts/push.js
+        run: |
+          node ./scripts/update/update.js
+          sh ./scripts/push.sh
         env:
           GIT_TOKEN: ${{secrets.GIT_TOKEN}}
           EMAIL_ADDRESS: ${{secrets.EMAIL_ADDRESS}}

@@ -1,0 +1,69 @@
+{
+  "caption": "Front End Engineer at Facebook",
+  "sections": [
+    {
+      "title": "Articles",
+      "items": [
+        {
+          "title": "Dead Simple React Validations with Vest.",
+          "url": "https://dev.to/ealush/dead-simple-form-validation-with-vest-5gf8"
+        },
+        {
+          "title": "Fight Validations Spaghetti with Vest.",
+          "url": "https://dev.to/ealush/fight-validations-spaghetti-with-vest-3i8j"
+        },
+        {
+          "title": "Creating APIs for the human developer",
+          "url": "https://medium.com/fiverr-engineering/creating-apis-for-the-human-developer-c0f51a6d9366"
+        },
+        {
+          "title": "Writing a JS Proxy based assertion function",
+          "url": "https://medium.com/fiverr-engineering/writing-a-js-proxy-based-assertion-function-5a7359df9f9b"
+        },
+        {
+          "title": "Introducing Passable",
+          "url": "https://medium.com/fiverr-engineering/introducing-passable-45250548afd1"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "items": [
+        {
+          "title": "What you need to know about contributing to open source",
+          "url": "https://www.youtube.com/watch?v=2D0LmCtVTSk",
+          "extra": "(Hebrew)"
+        },
+        {
+          "title": "It can't be that easy! Form validations with Vest",
+          "url": "https://www.youtube.com/watch?v=mL9ocOBg2y4",
+          "extra": "(Conf42)"
+        },
+        {
+          "title": "Vest Demo",
+          "url": "https://twitter.com/AlushEvyatar/status/1281297006070284289"
+        },
+        {
+          "title": "Rethinking form validations",
+          "url": "https://www.youtube.com/watch?v=_R5WfSXBruk",
+          "extra": "(Hebrew)"
+        }
+      ]
+    },
+    {
+      "title": "Interviews",
+      "items": [
+        {
+          "title": "DX is UX",
+          "url": "https://anchor.fm/frontend-greatness/episodes/DX-is-UX-With-Evyatar-e12tco9",
+          "extra": "Frontend Greatness Podcast"
+        },
+        {
+          "title": "Form Validations and Open Source",
+          "url": "https://reactroundup.com/172",
+          "extra": "React Roundup Podcast"
+        }
+      ]
+    }
+  ]
+}

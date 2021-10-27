@@ -1,4 +1,3 @@
-const $repos = document.getElementById("repos");
 const $main = document.getElementById("main");
 
 const convert = (oldMin, oldMax, newMin, newMax, oldValue) =>

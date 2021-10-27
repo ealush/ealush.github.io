@@ -1,8 +1,8 @@
 const fs = require("fs");
-const phrase = require("paraphrase/double");
 const { graphql } = require("@octokit/graphql");
 
-const template = fs.readFileSync("./scripts/update/index.tmpl", "utf8");
+const template = require("./template");
+const data = require("../../data.json");
 
 const authQuery = graphql.defaults({
   headers: {
@@ -46,23 +46,27 @@ const parseRepo = (repo) => {
   };
 };
 
-const genMarkup = (repo) =>
-  `<li><a href="${repo.url}" target="_blank" rel="noopener noreferrer">${repo.name}(🌟 ${repo.stars})</a></li>`;
-
 const prepareTemplate = async () => {
   const repos = await fetchRepos();
   if (!Array.isArray(repos)) {
     return;
   }
 
-  const REPOSITEORIES = repos
+  const repositories = repos
     .map(parseRepo)
     .filter(({ stars }) => !!stars)
     .sort((a, b) => b.updatedAt - a.updatedAt)
-    .map(genMarkup)
-    .join("");
+    .map((repo) => ({
+      url: repo.url,
+      title: repo.name + `(🌟 ${repo.stars})`,
+    }));
 
-  const out = phrase(template, { REPOSITEORIES });
+  data.sections.unshift({
+    title: "Code",
+    items: repositories,
+  });
+
+  const out = template(data);
 
   fs.writeFileSync("./index.html", out, "utf8");
 };

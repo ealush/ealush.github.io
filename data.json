@@ -30,6 +30,11 @@
       "title": "Videos",
       "items": [
         {
+          "title": "Vue Form Validations with Vest",
+          "url": "https://portal.gitnation.org/contents/vue-form-validations-with-vest",
+          "extra": "Vue.js London"
+        },
+        {
           "title": "What you need to know about contributing to open source",
           "url": "https://www.youtube.com/watch?v=2D0LmCtVTSk",
           "extra": "(Hebrew)"

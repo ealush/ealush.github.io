@@ -30,6 +30,11 @@
       "title": "Videos",
       "items": [
         {
+          "title": "Up Your Form Validation Game with Vest",
+          "url": "https://www.youtube.com/watch?v=X2PuiawaGV4",
+          "extra": "Svelte Summit | Fall 2021"
+        },
+        {
           "title": "Vue Form Validations with Vest",
           "url": "https://portal.gitnation.org/contents/vue-form-validations-with-vest",
           "extra": "Vue.js London"

@@ -64,6 +64,16 @@
       "title": "Interviews",
       "items": [
         {
+          "title": "Playing it close to the Vest",
+          "url": "https://changelog.com/jsparty/213",
+          "extra": "JS Party"
+        },
+        {
+          "title": "Vest with Evyatar Alush",
+          "url": "https://podrocket.logrocket.com/vest",
+          "extra": "PodRocket by LogRocket"
+        },
+        {
           "title": "DX is UX",
           "url": "https://anchor.fm/frontend-greatness/episodes/DX-is-UX-With-Evyatar-e12tco9",
           "extra": "Frontend Greatness Podcast"

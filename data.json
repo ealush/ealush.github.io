@@ -5,6 +5,11 @@
       "title": "Articles",
       "items": [
         {
+          "title": "Let's Build React Context in Vanilla JS.",
+          "url": "https://www.smashingmagazine.com/2022/08/react-context-propagation-javascript",
+          "extra": "Smashing Magazine"
+        },
+        {
           "title": "Dead Simple React Validations with Vest.",
           "url": "https://dev.to/ealush/dead-simple-form-validation-with-vest-5gf8"
         },

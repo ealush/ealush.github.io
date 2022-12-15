@@ -35,9 +35,19 @@
       "title": "Videos",
       "items": [
         {
+          "title": "Form Validations Do Not Have To Suck. Introducing Vest!",
+          "url": "https://www.youtube.com/watch?v=N7m-pwMQLD8&t",
+          "extra": "code.talks 2022"
+        },
+        {
+          "title": "Building an Assertion Library with Javascript Proxy",
+          "url": "https://www.youtube.com/watch?v=9gthzbVaHYo&t",
+          "extra": "Svelte Summit | Fall 2021"
+        },
+        {
           "title": "Up Your Form Validation Game with Vest",
           "url": "https://www.youtube.com/watch?v=X2PuiawaGV4",
-          "extra": "Svelte Summit | Fall 2021"
+          "extra": "Fiverr Talks"
         },
         {
           "title": "Vue Form Validations with Vest",

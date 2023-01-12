@@ -14,18 +14,18 @@ module.exports = function (data) {
 
 <body>
   <div class="grid">
-    <section id="main" class="main center">
-      <div class="face center"></div>
+    <section id="main" class="main">
+      <div class="face"></div>
       <h1>HI<span class="paint">,</span> I AM<br>EVYATAR<span class="paint">.</span></h1>
       <p>${data.caption}.</p>
       <span>code<span class="paint">@</span>ealush.com</span>
     </section>
-    <section class="grid col-12-xs col-10-md content">
+    <section class="links">
       ${data.sections
         .map(
-          (section) => `<div class="col-10-xs col-6-md center">
-            <h2 class="center">${section.title}</h2>
-            <ul class="center links">
+          (section) => `<div>
+            <h2>${section.title}</h2>
+            <ul>
             ${section.items
               .map(
                 (item) => `<li>
@@ -40,8 +40,6 @@ module.exports = function (data) {
         )
         .join("")}</section>
   </div>
-  <script src="https://cdn.jsdelivr.net/gh/ealush/vent/lib/vent.min.es5.js"></script>
-  <script src="./index.js"></script>
 </body>
 
 </html>

@@ -79,6 +79,11 @@
       "title": "Interviews",
       "items": [
         {
+          "title": "Deep Dive into JavaScript Proxies",
+          "url": "https://webrush.io/episodes/episode-216-javascript-proxies-with-evyatar-alush",
+          "extra": "Web Rush Podcast"
+        },
+        {
           "title": "Wearing a Vest is in Style",
           "url": "https://webrush.io/episodes/episode-188-wearing-a-vest-is-in-style-with-evyatar-alush",
           "extra": "Web Rush Podcast"

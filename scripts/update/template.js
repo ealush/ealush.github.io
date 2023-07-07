@@ -36,7 +36,7 @@ module.exports = function (data) {
                       item.title
                     }</a> ${item.extra ? `<small>${item.extra}</small>` : ""}
               </li>`
-                  : `<li>${item.title} ${
+                  : `<li><span class="no-link">${item.title}</span> ${
                       item.extra ? `<small>${item.extra}</small>` : ""
                     }</li>`
               )

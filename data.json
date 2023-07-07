@@ -47,7 +47,7 @@
         {
           "title": "Up Your Form Validation Game with Vest",
           "url": "https://www.youtube.com/watch?v=X2PuiawaGV4",
-          "extra": "Svelte Summit | Fall 2021"          
+          "extra": "Svelte Summit | Fall 2021"
         },
         {
           "title": "Vue Form Validations with Vest",
@@ -117,6 +117,48 @@
           "title": "Form Validations and Open Source",
           "url": "https://reactroundup.com/172",
           "extra": "React Roundup Podcast"
+        }
+      ]
+    },
+    {
+      "title": "Conferences",
+      "items": [
+        {
+          "title": "🇸🇬 iJS - Singapore | December 2023"
+        },
+        {
+          "title": "🇧🇪 FullStack Europe - Belgium | October 2023"
+        },
+        {
+          "title": "🇩🇪 code.talks - Germany | September 2023"
+        },
+        { "title": "🇮🇱 ReactNext TLV - Israel | June 2023" },
+        {
+          "title": "🇧🇪 DevDay Mons - Belgium | March 2023"
+        },
+        {
+          "title": "TestJS Summit | October 2022"
+        },
+        {
+          "title": "🇩🇪 iJS Munich - Germany | October 2022"
+        },
+        {
+          "title": "🇩🇪 code.talks - Germany | September 2022"
+        },
+        {
+          "title": "🇵🇱 ConfrontJS - Warsaw | March 2022"
+        },
+        {
+          "title": "JS Congress | November 2021"
+        },
+        {
+          "title": "Svelte Summit | Fall 2021"
+        },
+        {
+          "title": "Vue.JS London | October 2021"
+        },
+        {
+          "title": "Conf 42 Javascript | September 2021"
         }
       ]
     }

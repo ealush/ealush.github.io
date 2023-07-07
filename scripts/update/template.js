@@ -27,14 +27,18 @@ module.exports = function (data) {
             <h2>${section.title}</h2>
             <ul>
             ${section.items
-              .map(
-                (item) => `<li>
+              .map((item) =>
+                item.url
+                  ? `<li>
                   <a href="${
                     item.url
                   }" target="_blank" rel="noopener noreferrer">${
-                  item.title
-                }</a> ${item.extra ? `<small>${item.extra}</small>` : ""}
+                      item.title
+                    }</a> ${item.extra ? `<small>${item.extra}</small>` : ""}
               </li>`
+                  : `<li>${item.title} ${
+                      item.extra ? `<small>${item.extra}</small>` : ""
+                    }</li>`
               )
               .join("")}</ul></div>`
         )

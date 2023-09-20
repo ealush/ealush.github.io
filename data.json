@@ -35,6 +35,11 @@
       "title": "Videos",
       "items": [
         {
+          "title": "What if your JavaScript Validations Looked like Tests?",
+          "url": "https://topenddevs.com/podcasts/javascript-jabber/episodes/what-if-your-javascript-validations-looked-like-tests-jsj-597",
+          "extra": "JavaScript Jabber"
+        },
+        {
           "title": "Form Validations Do Not Have To Suck. Introducing Vest!",
           "url": "https://www.youtube.com/watch?v=N7m-pwMQLD8&t",
           "extra": "code.talks 2022"

@@ -1,13 +1,79 @@
 :root {
   --bg: #fff;
-  --title-color: #333;
+  --color-primary: #333;
+  --color-secondary: #9e9e9e;
+  --color-emp: #e91e63;
+  --color-link: var(--color-emp);
+  --color-link-hover: #d0054a;
+  --color-link-active: #ff387d;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #222432;
+    --color-primary: #fff;
+  }
+}
+
+@keyframes imageFilter {
+  0% {
+    filter: saturate(100%) blur(7px) contrast(100%);
+  }
+  15% {
+    filter: saturate(150%) blur(9px) contrast(200%);
+  }
+  25% {
+    filter: saturate(150%) blur(10px) contrast(120%);
+  }
+  50% {
+    filter: saturate(220%) blur(15px) contrast(230%);
+  }
+  75% {
+    filter: saturate(200%) blur(10px) contrast(150%);
+  }
+  100% {
+    filter: saturate(100%) blur(7px) contrast(100%);
+  }
+
+  /* opacity */
+  0% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0.8;
+  }
+  25% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  75% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  25% {
+    transform: translate(-50%, -50%) rotate(10deg);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(-10deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
 }
 
 body {
   background-color: var(--bg);
-  color: #333;
+  color: var(--color-primary);
   margin: 0;
-  padding: 0;
+  padding: 0 1em;
   font-size: 18px;
   font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
     "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -37,20 +103,46 @@ section.links {
 }
 
 .paint {
-  color: #e91e63;
+  color: var(--color-emp);
 }
 
 .face {
-  background-image: url(https://cdn.jsdelivr.net/gh/ealush/ealush.github.io@master/face_01_23.jpg);
-  border-radius: 50%;
   background-size: 8em;
   min-height: 8em;
   width: 8em;
+  position: relative;
+}
+
+.face:before {
+  filter: blur(7px);
+  min-height: 110%;
+  width: 110%;
+  background-size: 110%;
+  animation: imageFilter 10s infinite;
+}
+
+.face:after {
+  background-size: 100%;
+  min-height: 100%;
+  width: 100%;
+}
+
+.face:before,
+.face:after {
+  content: "";
+  display: block;
+  background-image: url(https://cdn.jsdelivr.net/gh/ealush/ealush.github.io@master/face_01_23.jpg);
+  background-position: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 a {
   text-decoration: none;
-  color: #e91e63;
+  color: var(--color-link);
 }
 
 a,
@@ -59,7 +151,7 @@ a,
 }
 
 a:hover {
-  color: #d0054a;
+  color: var(--color-link-hover);
   text-decoration: underline;
   background: rgb(198, 175, 183, 0.2);
   border-radius: 3px;
@@ -67,11 +159,11 @@ a:hover {
 }
 
 a:active {
-  color: #ff387d;
+  color: var(--color-link-active);
 }
 
 small {
-  color: #9e9e9e;
+  color: var(--color-secondary);
 }
 
 ul,
@@ -99,17 +191,6 @@ h2 {
 
 h1,
 h2 {
-  color: var(--title-color);
+  color: var(--color-primary);
   font-weight: 700;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #333;
-    --title-color: #fff;
-  }
-
-  body {
-    color: #9e9e9e;
-  }
 }

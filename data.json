@@ -79,6 +79,16 @@
       "title": "Interviews",
       "items": [
         {
+          "title": "Better Form Validation with Vest",
+          "url": "https://www.compressed.fm/episode/161",
+          "extra": "Compressed.FM"
+        },
+        {
+          "title": "Who’s Afraid Of Open Source?",
+          "url": "https://webrush.io/episodes/episode-261-whos-afraid-of-open-source",
+          "extra": "Web Rush Podcast"
+        },
+        {
           "title": "What if your JavaScript Validations Looked like Tests?",
           "url": "https://topenddevs.com/podcasts/javascript-jabber/episodes/what-if-your-javascript-validations-looked-like-tests-jsj-597",
           "extra": "JavaScript Jabber"

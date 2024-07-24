@@ -35,14 +35,24 @@
       "title": "Videos",
       "items": [
         {
-          "title": "Form Validations Do Not Have To Suck. Introducing Vest!",
-          "url": "https://www.youtube.com/watch?v=N7m-pwMQLD8&t",
-          "extra": "code.talks 2022"
+          "title": "Harness the power of JavaScript Proxies",
+          "url": "https://www.youtube.com/watch?v=s9nFLWzt4c0",
+          "extra": "NodeTLV 2024"
+        },
+        {
+          "title": "CSS Only* Search: Improve React Filtering Performance with CSS!",
+          "url": "https://portal.gitnation.org/contents/css-only-search-improve-react-filtering-performance-with-css",
+          "extra": "React Day Berlin 2023"
+        },
+        {
+          "title": "Let's Build React Context in Vanilla JS",
+          "url": "https://www.youtube.com/watch?v=tt1ZuyoPcFc",
+          "extra": "ReactNext '23"
         },
         {
           "title": "Building an Assertion Library with Javascript Proxy",
           "url": "https://www.youtube.com/watch?v=9gthzbVaHYo&t",
-          "extra": "Fiverr Talks"
+          "extra": "Fiverr Talks 2022"
         },
         {
           "title": "Up Your Form Validation Game with Vest",
@@ -138,6 +148,17 @@
     {
       "title": "Conferences",
       "items": [
+        {
+          "title": "🇧🇪 DevFest Mons - Belgium | November 2024"
+        },
+        {
+          "title": "🇪🇸 React Alicante - Spain | September 2024"
+        },
+        {
+          "title": "🇩🇪 code.talks - Germany | September 2024"
+        },
+        { "title": "🇮🇱 Node TLV - Israel | June 2024" },
+        { "title": "🇮🇱 ReactNext TLV - Israel | June 2024" },
         {
           "title": "🇸🇬 iJS - Singapore | December 2023"
         },

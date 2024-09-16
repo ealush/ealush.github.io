@@ -107,6 +107,7 @@ section.main {
   align-items: center;
   text-align: center;
   padding: 3em 0;
+  height: 100vh;
 }
 
 section.links {
@@ -117,6 +118,16 @@ section.links {
 
 .paint {
   color: var(--color-emp);
+}
+
+.tagline {
+  font-weight: 500;
+  padding: 1em 0;
+}
+
+.contact > * {
+  display: block;
+  margin-bottom: 5px;
 }
 
 .face {

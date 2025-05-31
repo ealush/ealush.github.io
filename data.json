@@ -2,6 +2,74 @@
   "caption": "Software Engineer at Meta",
   "sections": [
     {
+      "title": "Conferences",
+      "items": [
+        {
+          "title": "🇪🇸 React Alicante - Spain | October 2025"
+        },
+        {
+          "title": "🇮🇱 React Next TLV - Israel | June 2025"
+        },
+        {
+          "title": "🇬🇷 CityJS Athens - Greece | May 2025"
+        },
+        {
+          "title": "🇧🇪 DevFest Mons - Belgium | November 2024"
+        },
+        {
+          "title": "🇬🇧 React Advanced London - UK | October 2024"
+        },
+        {
+          "title": "🇪🇸 React Alicante - Spain | September 2024"
+        },
+        {
+          "title": "🇩🇪 code.talks - Germany | September 2024"
+        },
+        { "title": "🇮🇱 Node TLV - Israel | June 2024" },
+        { "title": "🇮🇱 ReactNext TLV - Israel | June 2024" },
+        {
+          "title": "🇸🇬 iJS - Singapore | December 2023"
+        },
+        {
+          "title": "🇩🇪 ReactDay Berlin - Germany | December 2023"
+        },
+        {
+          "title": "🇧🇪 FullStack Europe - Belgium | October 2023"
+        },
+        {
+          "title": "🇩🇪 code.talks - Germany | September 2023"
+        },
+        { "title": "🇮🇱 ReactNext TLV - Israel | June 2023" },
+        {
+          "title": "🇧🇪 DevDay Mons - Belgium | March 2023"
+        },
+        {
+          "title": "🌐 TestJS Summit | October 2022"
+        },
+        {
+          "title": "🇩🇪 iJS Munich - Germany | October 2022"
+        },
+        {
+          "title": "🇩🇪 code.talks - Germany | September 2022"
+        },
+        {
+          "title": "🇵🇱 ConfrontJS - Warsaw | March 2022"
+        },
+        {
+          "title": "🌐 JS Congress | November 2021"
+        },
+        {
+          "title": "🌐 Svelte Summit | Fall 2021"
+        },
+        {
+          "title": "🌐 Vue.JS London | October 2021"
+        },
+        {
+          "title": "🌐 Conf 42 Javascript | September 2021"
+        }
+      ]
+    },
+    {
       "title": "Articles",
       "items": [
         {
@@ -142,74 +210,6 @@
           "title": "Form Validations and Open Source",
           "url": "https://reactroundup.com/172",
           "extra": "React Roundup Podcast"
-        }
-      ]
-    },
-    {
-      "title": "Conferences",
-      "items": [
-        {
-          "title": "🇪🇸 React Alicante - Spain | October 2025"
-        },
-        {
-          "title": "🇮🇱 React Next TLV - Israel | June 2025"
-        },
-        {
-          "title": "🇬🇷 CityJS Athens - Greece | May 2025"
-        },
-        {
-          "title": "🇧🇪 DevFest Mons - Belgium | November 2024"
-        },
-        {
-          "title": "🇬🇧 React Advanced London - UK | October 2024"
-        },
-        {
-          "title": "🇪🇸 React Alicante - Spain | September 2024"
-        },
-        {
-          "title": "🇩🇪 code.talks - Germany | September 2024"
-        },
-        { "title": "🇮🇱 Node TLV - Israel | June 2024" },
-        { "title": "🇮🇱 ReactNext TLV - Israel | June 2024" },
-        {
-          "title": "🇸🇬 iJS - Singapore | December 2023"
-        },
-        {
-          "title": "🇩🇪 ReactDay Berlin - Germany | December 2023"
-        },
-        {
-          "title": "🇧🇪 FullStack Europe - Belgium | October 2023"
-        },
-        {
-          "title": "🇩🇪 code.talks - Germany | September 2023"
-        },
-        { "title": "🇮🇱 ReactNext TLV - Israel | June 2023" },
-        {
-          "title": "🇧🇪 DevDay Mons - Belgium | March 2023"
-        },
-        {
-          "title": "🌐 TestJS Summit | October 2022"
-        },
-        {
-          "title": "🇩🇪 iJS Munich - Germany | October 2022"
-        },
-        {
-          "title": "🇩🇪 code.talks - Germany | September 2022"
-        },
-        {
-          "title": "🇵🇱 ConfrontJS - Warsaw | March 2022"
-        },
-        {
-          "title": "🌐 JS Congress | November 2021"
-        },
-        {
-          "title": "🌐 Svelte Summit | Fall 2021"
-        },
-        {
-          "title": "🌐 Vue.JS London | October 2021"
-        },
-        {
-          "title": "🌐 Conf 42 Javascript | September 2021"
         }
       ]
     }

@@ -157,6 +157,11 @@
       "title": "Interviews",
       "items": [
         {
+          "title": "Speaking Up: The Developer’s Guide to Conference Talks & Career Growth",
+          "url": "https://www.youtube.com/watch?v=AMOz9Kmsmys",
+          "extra": "Javascript Jabber"
+        },
+        {
           "title": "Better Form Validation with Vest",
           "url": "https://www.compressed.fm/episode/161",
           "extra": "Compressed.FM"

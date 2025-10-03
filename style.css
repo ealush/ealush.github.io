@@ -186,6 +186,10 @@ a:active {
   color: var(--color-link-active);
 }
 
+small a {
+  color: var(--color-secondary);
+}
+
 small {
   color: var(--color-secondary);
 }

@@ -41,7 +41,9 @@ module.exports = function (data) {
                 }
 
                 const linksStr =
-                  links.length > 0 ? `(${links.join(" | ")})` : "";
+                  links.length > 0
+                    ? `<small>(${links.join(" | ")})</small>`
+                    : "";
 
                 return item.url
                   ? `<li>

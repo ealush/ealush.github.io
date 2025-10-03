@@ -27,19 +27,36 @@ module.exports = function (data) {
             <h2>${section.title}</h2>
             <ul>
             ${section.items
-              .map((item) =>
-                item.url
+              .map((item) => {
+                const links = [];
+                if (item.website) {
+                  links.push(
+                    `<a href="${item.website}" target="_blank" rel="noopener noreferrer">website</a>`
+                  );
+                }
+                if (item.npm) {
+                  links.push(
+                    `<a href="${item.npm}" target="_blank" rel="noopener noreferrer">npm</a>`
+                  );
+                }
+
+                const linksStr =
+                  links.length > 0 ? `(${links.join(" | ")})` : "";
+
+                return item.url
                   ? `<li>
                   <a href="${
                     item.url
                   }" target="_blank" rel="noopener noreferrer">${
                       item.title
-                    }</a> ${item.extra ? `<small>${item.extra}</small>` : ""}
+                    }</a> ${linksStr} ${
+                      item.extra ? `<small>${item.extra}</small>` : ""
+                    }
               </li>`
                   : `<li><span class="no-link">${item.title}</span> ${
                       item.extra ? `<small>${item.extra}</small>` : ""
-                    }</li>`
-              )
+                    }</li>`;
+              })
               .join("")}</ul></div>`
         )
         .join("")}</section>

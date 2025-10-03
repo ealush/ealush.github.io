@@ -110,6 +110,21 @@ section.main {
   height: 100vh;
 }
 
+.social-links {
+  margin-top: 1em;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25em;
+}
+
+.social-icon {
+  width: 1em;
+  height: 1em;
+}
+
 section.links {
   margin: 0 auto;
   max-width: 600px;

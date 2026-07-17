@@ -32,10 +32,13 @@ const repoQuery = `{
 `;
 
 const fetchRepos = async () => {
-  console.log("Fetching repos...");
+  console.log("Fetching repos from GitHub API...");
+  if (!process.env.GIT_TOKEN) {
+    console.log("GIT_TOKEN not set, bypassing live stars query.");
+    return null;
+  }
   try {
     const res = await authQuery(repoQuery);
-    console.log(res);
     return res?.user?.repositories?.nodes ?? null;
   } catch (e) {
     console.log("Failed to fetch repos", e);
@@ -61,8 +64,6 @@ const parseRepo = (repo) => {
     }
   }
 
-  console.log(npm);
-
   return {
     url,
     name,
@@ -75,29 +76,36 @@ const parseRepo = (repo) => {
 
 const prepareTemplate = async () => {
   const repos = await fetchRepos();
-  if (!Array.isArray(repos)) {
-    return;
+  
+  if (Array.isArray(repos)) {
+    console.log(`Successfully fetched ${repos.length} repositories. Mapping stars...`);
+    const parsedRepos = repos.map(parseRepo);
+    
+    data.resources.projects = data.resources.projects.map(project => {
+      const parts = project.canonical_title.split("/");
+      const repoName = parts[1] || parts[0];
+      const matched = parsedRepos.find(r => r.name.toLowerCase() === repoName.toLowerCase());
+      if (matched) {
+        console.log(`Matched ${project.canonical_title} -> ${matched.stars} stars, updated ${matched.updatedAt}`);
+        return {
+          ...project,
+          stars: matched.stars,
+          updatedAt: matched.updatedAt
+        };
+      }
+      return project;
+    });
+
+    // Sort projects by most recently updated first
+    data.resources.projects.sort((a, b) => (b.updatedAt || 0) - (a.updatedAt || 0));
+  } else {
+    console.log("Using cached/default resource data without live stars update.");
   }
 
-  const repositories = repos
-    .map(parseRepo)
-    .filter(({ stars }) => !!stars)
-    .sort((a, b) => b.updatedAt - a.updatedAt)
-    .map((repo) => ({
-      url: repo.url,
-      title: repo.name + `(🌟 ${repo.stars})`,
-      npm: repo.npm,
-      website: repo.website,
-    }));
-
-  data.sections.unshift({
-    title: "Code",
-    items: repositories,
-  });
-
+  console.log("Generating index.html...");
   const out = template(data);
-
   fs.writeFileSync("./index.html", out, "utf8");
+  console.log("Generation complete!");
 };
 
 prepareTemplate();

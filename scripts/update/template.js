@@ -1,4 +1,135 @@
 module.exports = function (data) {
+  // Helper to format dates elegantly (e.g., "2026-04-15" -> "Apr 2026")
+  const formatDate = (dateStr) => {
+    if (!dateStr) return "";
+    const parts = dateStr.split("-");
+    if (parts.length === 1) return parts[0];
+    const year = parts[0];
+    const monthIndex = parseInt(parts[1], 10) - 1;
+    const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    const monthName = months[monthIndex];
+    return monthName ? `${monthName} ${year}` : year;
+  };
+
+  // Helper to identify link type for clean labeling
+  const getLinkName = (url) => {
+    const lower = url.toLowerCase();
+    if (lower.includes("npmjs.com")) return "npm";
+    if (lower.includes("github.com")) return "github";
+    if (lower.includes("spotify.com")) return "spotify";
+    if (lower.includes("podcasts.apple.com")) return "apple podcasts";
+    if (lower.includes("youtube.com") || lower.includes("youtu.be")) return "youtube";
+    if (lower.includes("smashingmagazine.com")) return "smashing magazine";
+    if (lower.includes("dev.to")) return "dev.to";
+    if (lower.includes("medium.com")) return "medium";
+    return "link";
+  };
+
+  // Helper to render a mirror links block
+  const renderMirrors = (primaryUrl, relatedUrls = []) => {
+    const urls = [primaryUrl, ...relatedUrls].filter(Boolean);
+    if (urls.length === 0) return "";
+    
+    // De-duplicate URLs
+    const uniqueUrls = [...new Set(urls)];
+    
+    return `<span class="utility-links-container">
+      ${uniqueUrls.map(url => {
+        const name = getLinkName(url);
+        return `<a href="${url}" class="utility-link font-mono" target="_blank" rel="noopener noreferrer">${name}</a>`;
+      }).join(" ")}
+    </span>`;
+  };
+
+  // 1. Projects (Code)
+  const projectsHtml = (data.resources.projects || [])
+    .map(project => {
+      const parts = project.canonical_title.split("/");
+      const displayName = parts[1] || parts[0];
+      const starStr = project.stars ? ` (🌟 ${project.stars})` : "";
+      
+      return `<li class="link-item">
+        <div class="link-content">
+          <a href="${project.primary_url}" class="item-title" target="_blank" rel="noopener noreferrer">${displayName}${starStr}</a>
+          ${renderMirrors(null, project.related_urls)}
+        </div>
+        <span class="item-extra font-mono">open source</span>
+      </li>`;
+    })
+    .join("\n");
+
+  // 2. Talks & Workshops
+  const talksHtml = (data.resources.talks || [])
+    .filter(t => t.verification_status === "confirmed")
+    .sort((a, b) => b.date.localeCompare(a.date))
+    .map(talk => {
+      const dateDisplay = formatDate(talk.date);
+      const flagMap = {
+        "israel": "🇮🇱 ",
+        "spain": "🇪🇸 ",
+        "greece": "🇬🇷 ",
+        "belgium": "🇧🇪 ",
+        "uk": "🇬🇧 ",
+        "germany": "🇩🇪 ",
+        "singapore": "🇸🇬 ",
+        "india": "🇮🇱 " // CityJS New Delhi has israel in data? Or let's check flag
+      };
+      
+      let flag = "";
+      const lowerEvent = talk.publisher_or_event.toLowerCase();
+      if (lowerEvent.includes("israel") || lowerEvent.includes("react il") || lowerEvent.includes("nodetlv") || lowerEvent.includes("reactnext")) flag = "🇮🇱 ";
+      else if (lowerEvent.includes("alicante") || lowerEvent.includes("spain")) flag = "🇪🇸 ";
+      else if (lowerEvent.includes("athens") || lowerEvent.includes("greece")) flag = "🇬🇷 ";
+      else if (lowerEvent.includes("mons") || lowerEvent.includes("belgium") || lowerEvent.includes("devday")) flag = "🇧🇪 ";
+      else if (lowerEvent.includes("london") || lowerEvent.includes("uk") || lowerEvent.includes("advanced")) flag = "🇬🇧 ";
+      else if (lowerEvent.includes("berlin") || lowerEvent.includes("germany") || lowerEvent.includes("talks")) flag = "🇩🇪 ";
+      else if (lowerEvent.includes("singapore")) flag = "🇸🇬 ";
+      else if (lowerEvent.includes("delhi") || lowerEvent.includes("india")) flag = "🇮🇳 ";
+      
+      const titleDisplay = `${flag}${talk.canonical_title}`;
+      
+      return `<li class="link-item">
+        <div class="link-content">
+          <a href="${talk.primary_url}" class="item-title" target="_blank" rel="noopener noreferrer">${titleDisplay}</a>
+          ${renderMirrors(null, talk.related_urls)}
+        </div>
+        <span class="item-extra font-mono">${talk.publisher_or_event} | ${dateDisplay}</span>
+      </li>`;
+    })
+    .join("\n");
+
+  // 3. Podcasts & Interviews
+  const appearancesHtml = (data.resources.appearances || [])
+    .filter(a => a.verification_status === "confirmed")
+    .sort((a, b) => b.date.localeCompare(a.date))
+    .map(app => {
+      const dateDisplay = formatDate(app.date);
+      return `<li class="link-item">
+        <div class="link-content">
+          <a href="${app.primary_url}" class="item-title" target="_blank" rel="noopener noreferrer">${app.canonical_title}</a>
+          ${renderMirrors(null, app.related_urls)}
+        </div>
+        <span class="item-extra font-mono">${app.publisher_or_event} | ${dateDisplay}</span>
+      </li>`;
+    })
+    .join("\n");
+
+  // 4. Articles
+  const articlesHtml = (data.resources.articles || [])
+    .filter(a => a.verification_status === "confirmed")
+    .sort((a, b) => b.date.localeCompare(a.date))
+    .map(art => {
+      const dateDisplay = formatDate(art.date);
+      return `<li class="link-item">
+        <div class="link-content">
+          <a href="${art.primary_url}" class="item-title" target="_blank" rel="noopener noreferrer">${art.canonical_title}</a>
+          ${renderMirrors(null, art.related_urls)}
+        </div>
+        <span class="item-extra font-mono">${art.publisher_or_event} | ${dateDisplay}</span>
+      </li>`;
+    })
+    .join("\n");
+
   return `<!DOCTYPE html>
 <html lang="en">
 
@@ -25,12 +156,7 @@ module.exports = function (data) {
       <h1>HI<span class="paint">,</span> I AM<br>EVYATAR<span class="paint">.</span></h1>
       <p class="tagline">${data.caption}.</p>
       
-      <p class="bio">
-        I write code at Meta and maintain open source tools in my free time. 
-        I created <a href="https://github.com/ealush/vest" target="_blank" rel="noopener noreferrer">Vest</a> because form validation should not make you hate your life. 
-        I also built <a href="https://github.com/ealush/emoji-picker-react" target="_blank" rel="noopener noreferrer">emoji-picker-react</a>, which taught me more about open source than I ever expected to learn. 
-        Sometimes I speak at conferences about API design, performance, and the strange rules we follow without asking why.
-      </p>
+      <p class="bio">${data.bio}</p>
 
       <div class="contact-links">
         <a href="mailto:code@ealush.com" class="email-link">code<span class="paint">@</span>ealush.com</a>
@@ -42,7 +168,7 @@ module.exports = function (data) {
           </a>
           <span class="divider">|</span>
           <a href="https://www.linkedin.com/in/evyatar-alush-5b760866/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-            <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4s1.39.63 1.39 1.4v4.93h2.8zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69.75 1.69 1.69 0 0 0 0 1.88 1.68 1.68 0 0 0 1.69 1.68m-1.39 9.94v-8.37H8.27v8.37H5.49z"/></svg>
+            <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
             <span>LinkedIn</span>
           </a>
         </div>
@@ -50,53 +176,33 @@ module.exports = function (data) {
     </header>
 
     <main class="links-section">
-      ${data.sections
-        .map(
-          (section) => `<section class="links-group">
-            <h2>${section.title}</h2>
-            <ul class="links-list">
-            ${section.items
-              .map((item) => {
-                const links = [];
-                if (item.website) {
-                  links.push(
-                    `<a href="${item.website}" class="utility-link font-mono" target="_blank" rel="noopener noreferrer">website</a>`
-                  );
-                }
-                if (item.npm) {
-                  links.push(
-                    `<a href="${item.npm}" class="utility-link font-mono" target="_blank" rel="noopener noreferrer">npm</a>`
-                  );
-                }
+      <section class="links-group">
+        <h2>Code</h2>
+        <ul class="links-list">
+          ${projectsHtml}
+        </ul>
+      </section>
 
-                const linksStr =
-                  links.length > 0
-                    ? `<span class="utility-links-container">${links.join(" ")}</span>`
-                    : "";
+      <section class="links-group">
+        <h2>Talks & Presentations</h2>
+        <ul class="links-list">
+          ${talksHtml}
+        </ul>
+      </section>
 
-                if (item.url) {
-                  return `<li class="link-item">
-                    <div class="link-content">
-                      <a href="${item.url}" class="item-title" target="_blank" rel="noopener noreferrer">${item.title}</a>
-                      ${linksStr}
-                    </div>
-                    ${item.extra ? `<span class="item-extra font-mono">${item.extra}</span>` : ""}
-                  </li>`;
-                } else {
-                  return `<li class="link-item">
-                    <div class="link-content">
-                      <span class="item-title no-link">${item.title}</span>
-                      ${linksStr}
-                    </div>
-                    ${item.extra ? `<span class="item-extra font-mono">${item.extra}</span>` : ""}
-                  </li>`;
-                }
-              })
-              .join("")}
-            </ul>
-          </section>`
-        )
-        .join("")}
+      <section class="links-group">
+        <h2>Podcasts & Interviews</h2>
+        <ul class="links-list">
+          ${appearancesHtml}
+        </ul>
+      </section>
+
+      <section class="links-group">
+        <h2>Articles & Writing</h2>
+        <ul class="links-list">
+          ${articlesHtml}
+        </ul>
+      </section>
     </main>
   </div>
 </body>

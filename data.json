@@ -1,222 +1,2310 @@
 {
-  "caption": "Software Engineer. Open Source Maintainer. Human Developer",
-  "sections": [
+  "schema_version": "1.0",
+  "generated_on": "2026-07-17",
+  "subject": "Evyatar Alush",
+  "aliases": [
+    "Evyatar Alush",
+    "ealush",
+    "evyataral",
+    "@evyataral",
+    "AlushEvyatar",
+    "אביתר אלוש"
+  ],
+  "counts": {
+    "spoken_appearances": 22,
+    "live_presentations": 36,
+    "secondary_mentions": 2,
+    "articles": 10,
+    "projects": 10,
+    "profiles": 8
+  },
+  "resources": {
+    "talks": [
+      {
+        "verification_summary": "The official Luma schedule lists Evyatar Alush at 19:50 on 2026-04-15 at Connecteam in Tel Aviv. Organizer posts independently confirm the meetup and speaker lineup.",
+        "confidence": "High",
+        "date": "2026-04-15",
+        "index_notes": "Confirmed live delivery. All sessions were held in Hebrew.",
+        "_family": "live_presentations",
+        "id": "EA-TALK-031",
+        "canonical_title": "Vest 6 for the Stranded Time Traveler",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "Hebrew",
+        "related_urls": [
+          "https://www.instagram.com/p/DXGuEWfiuwf/",
+          "https://www.facebook.com/eventhandlerpro/posts/-the-april-react-il-meetup-is-almost-here-this-time-connecteam-is-hosting-us-and/1561835549276308/"
+        ],
+        "topics": [
+          "Form Validation",
+          "Open Source",
+          "Vest",
+          "Vest.js"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "React IL April 2026 Meetup",
+        "primary_url": "https://luma.com/4b94kscv",
+        "original_title": "Vest 6 for the stranded time traveler",
+        "entity_type": "Meetup Talk"
+      },
+      {
+        "verification_summary": "Frontendistim published the full recording and a dated community post confirming that Evyatar had delivered the session. The exact live date was not recovered.",
+        "confidence": "High",
+        "date": "2026-04",
+        "index_notes": "The live appearance occurred no later than 2026-04-07. The recording upload date is 2026-04-30 and is not used as the event date.",
+        "_family": "live_presentations",
+        "id": "EA-TALK-032",
+        "canonical_title": "Vest.js Validation Framework",
+        "verification_status": "confirmed",
+        "date_precision": "month",
+        "language": "Hebrew",
+        "related_urls": [
+          "https://www.facebook.com/groups/frontendistim/posts/1651419902952770/"
+        ],
+        "topics": [
+          "Form Validation",
+          "JavaScript",
+          "Open Source",
+          "React",
+          "Vest",
+          "Vest.js"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "Frontendistim",
+        "primary_url": "https://www.youtube.com/watch?v=E3H5xN3L-GQ",
+        "original_title": "Vest.js validation framework | פרונטאנדיסטים עם אביתר אלוש",
+        "entity_type": "Meetup Talk"
+      },
+      {
+        "verification_summary": "The public CityJS New Delhi event page lists Evyatar Alush in the lineup for 18 February 2026 with this session topic.",
+        "confidence": "High",
+        "date": "2026-02-18",
+        "index_notes": "Recovered during the X and LinkedIn source audit and verified against the public event page.",
+        "_family": "live_presentations",
+        "id": "EA-TALK-033",
+        "canonical_title": "JavaScript Proxies & Meta-programming",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "API Design",
+          "JavaScript",
+          "Meta-programming",
+          "Proxies"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "CityJS New Delhi 2026",
+        "primary_url": "https://www.commudle.com/communities/cityjs-india/events/cityjs-new-delhi",
+        "original_title": "JavaScript Proxies & Meta-programming",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "The CityJS Singapore event site confirms the 4–6 February 2026 event and 6 February main conference. The direct CityJS recording confirms Evyatar and the talk title; it premiered on 30 June 2026.",
+        "confidence": "High",
+        "date": "2026-02-06",
+        "index_notes": "Merged multiple URL groups representing the same event delivery.",
+        "_family": "live_presentations",
+        "id": "EA-TALK-030",
+        "canonical_title": "Harness the power of JavaScript Proxies",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://www.youtube.com/watch?v=hUJufF5xfNc"
+        ],
+        "topics": [
+          "JavaScript",
+          "JavaScript Proxies",
+          "Proxy",
+          "Vest"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "CityJS Singapore",
+        "primary_url": "https://singapore.cityjsconf.org/speakers",
+        "original_title": "",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "YouTube title encodes event date \"2025 10 03\"; React Alicante 2025 ran 2–4 Oct 2025; Evyatar named in title",
+        "confidence": "High",
+        "date": "2025-10-03",
+        "index_notes": "",
+        "_family": "live_presentations",
+        "id": "EA-TALK-026",
+        "canonical_title": "React Server Actions (React Alicante 2025)",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "React",
+          "Server Actions"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "React Alicante 2025",
+        "primary_url": "https://youtube.com/watch?v=CbS1cj2urBc",
+        "original_title": "2025 10 03 14 EVYATAR ALUSH CONGRESO REACT ALICANTE The international React js conference in Spain",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "YouTube page confirms Evyatar Alush (אביתר אלוש) as speaker; channel is מפתחים מחוץ לקופסה; uploaded Aug 17, 2025; description confirms live coding session at a meetup",
+        "confidence": "High",
+        "date": "2025-08-17",
+        "index_notes": "",
+        "_family": "live_presentations",
+        "id": "EA-TALK-025",
+        "canonical_title": "Live Coding: Building Libraries Without Dependencies",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "Hebrew",
+        "related_urls": [
+          "https://www.linkedin.com/posts/shahar-polak_%D7%94%D7%A8%D7%A6%D7%90%D7%94-%D7%9E%D7%94%D7%9E%D7%9E%D7%AA-%D7%A9%D7%9C-%D7%90%D7%91%D7%99%D7%AA%D7%A8-%D7%90%D7%9C%D7%95%D7%A9-%D7%A9%D7%95%D7%A8%D7%94-%D7%A9%D7%A0%D7%99%D7%94-%D7%9E%D7%A7%D7%93%D7%99%D7%9E%D7%94-activity-7211276064164069376-8ziw"
+        ],
+        "topics": [
+          "Assertion Library",
+          "JavaScript",
+          "Live Coding",
+          "Open Source"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "מפתחים מחוץ לקופסה (Developers Outside the Box)",
+        "primary_url": "https://youtube.com/watch?v=zQDX-osbv00",
+        "original_title": "אביתר אלוש במסע של אופן סורס שכבש את הרשת",
+        "entity_type": "Meetup Talk"
+      },
+      {
+        "verification_summary": "Evyatar’s official site confirms CityJS Athens in May 2025. The CityJS YouTube channel supplies the direct recording.",
+        "confidence": "High",
+        "date": "2025-05",
+        "index_notes": "The recording was published on 2026-01-17. That upload date is not the live delivery date.",
+        "_family": "live_presentations",
+        "id": "EA-TALK-028",
+        "canonical_title": "Let's Build React Context From Scratch in JS",
+        "verification_status": "confirmed",
+        "date_precision": "month",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "Context API",
+          "JavaScript",
+          "React",
+          "React Context API",
+          "Vest"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "CityJS Athens 2025",
+        "primary_url": "https://www.youtube.com/watch?v=LZNz4hLek8A",
+        "original_title": "Evyatar Alush - Let's Build React Context From Scratch in JS",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "Verified across multiple sources. The social-source audit added first-party, organizer, host, or attendee evidence for this resource.",
+        "confidence": "High",
+        "date": "2025",
+        "index_notes": "Merged multiple URL groups representing the same event delivery.",
+        "_family": "live_presentations",
+        "id": "EA-TALK-024",
+        "canonical_title": "Server-First React",
+        "verification_status": "confirmed",
+        "date_precision": "year",
+        "language": "English",
+        "related_urls": [
+          "https://youtube.com/watch?v=kpuUFU0fLgs",
+          "https://www.instagram.com/p/DOGqcCrjW5u/",
+          "https://www.linkedin.com/posts/%F0%9F%A4%96-chen-reuven-7535aa28_%D7%95%D7%90%D7%9C%D7%9C%D7%94-%D7%90%D7%91%D7%99%D7%AA%D7%A8-%D7%90%D7%9C%D7%95%D7%A9-%D7%90%D7%A0%D7%99-%D7%97%D7%95%D7%A9%D7%91-%D7%94%D7%91%D7%9F-%D7%90%D7%93%D7%9D-%D7%94%D7%99%D7%97%D7%99%D7%93%D7%99-activity-7406325660362706945-h2Xc"
+        ],
+        "topics": [
+          "JavaScript",
+          "React",
+          "React Server Actions",
+          "React Server Components",
+          "Server Actions",
+          "Vest"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "ReactNext",
+        "primary_url": "https://facebook.com/ReactNextConf/photos/now-on-youtube-evyatar-alush-front-end-engineer-meta-at-reactnext-2025server-fir/1291364612799356",
+        "original_title": "",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "Evyatar presents on form validation. | Found via YouTube for DevFest Mons 2024.",
+        "confidence": "High",
+        "date": "2024-11",
+        "index_notes": "",
+        "_family": "live_presentations",
+        "id": "EA-TALK-023",
+        "canonical_title": "Form the Future. The future of form validation.",
+        "verification_status": "confirmed",
+        "date_precision": "month",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "JavaScript",
+          "React",
+          "Vest"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "DevFest Mons 2024",
+        "primary_url": "https://youtube.com/watch?v=FQuiadAzBBA",
+        "original_title": "",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "The GitNation talk page names Evyatar Alush as the speaker and dates the talk “28 Oct, 2024.” The React Advanced 2024 site also lists Evyatar Alush with this talk, and the GitNation certificate page ties certificate 24779 to the same content slug and event.",
+        "confidence": "High",
+        "date": "2024-10-28",
+        "index_notes": "Merged multiple URL groups representing the same event delivery.",
+        "_family": "live_presentations",
+        "id": "EA-TALK-022",
+        "canonical_title": "CSS Is More Powerful Than You Think! Building React Search in CSS",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://gitnation.com/person/evyatar_alush/certificates/24779",
+          "https://reactadvanced.com/2024/",
+          "https://portal.gitnation.org/contents/css-is-more-powerful-than-you-think-building-react-search-in-css"
+        ],
+        "topics": [
+          "CSS",
+          "emoji-picker-react",
+          "JavaScript",
+          "performance",
+          "React",
+          "Vest"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "React Advanced 2024",
+        "primary_url": "https://gitnation.com/contents/css-is-more-powerful-than-you-think-building-react-search-in-css",
+        "original_title": "CSS Is More Powerful Than You Think! Building React Search in CSS",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "YouTube title encodes event date \"2024 09 21\"; React Alicante 2024 ran 19–21 Sep 2024; Evyatar named in title | Evyatar presents on React Server Actions. | YouTube video (rate limited, assumed verified) | YouTube video title | Found via YouTube for React Alicante 2024.",
+        "confidence": "High",
+        "date": "2024-09-21",
+        "index_notes": "",
+        "_family": "live_presentations",
+        "id": "EA-TALK-021",
+        "canonical_title": "Full Stack Form Validation with React Server Actions",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://kalabro.tech/react-alicante-2024/"
+        ],
+        "topics": [
+          "Form Validation",
+          "JavaScript",
+          "React",
+          "React Server Actions",
+          "Server Actions",
+          "Vest"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "React Alicante 2024",
+        "primary_url": "https://youtube.com/watch?v=opzHOooNyZE",
+        "original_title": "2024 09 21 21 EVYATAR ALUSH - Full Stack Form Validation with React Server Actions",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "Evyatar's first-party X post identifies the conference, subject, and delivery date.",
+        "confidence": "High",
+        "date": "2024-09-19",
+        "index_notes": "No stronger surviving direct recording or session page was recovered, so the first-party post is the canonical endpoint.",
+        "_family": "live_presentations",
+        "id": "EA-TALK-034",
+        "canonical_title": "CSS Is WAY More Powerful Than You Might Think",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "CSS",
+          "Performance",
+          "React",
+          "Search"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "code.talks Hamburg 2024",
+        "primary_url": "https://x.com/evyataral/status/1836767619002601850",
+        "original_title": "CSS Is WAY More Powerful Than You Might Think",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "Found on source page A public LinkedIn event post independently confirms Evyatar, the NodeTLV event, and the JavaScript Proxies subject.",
+        "confidence": "High",
+        "date": "2024-07-21",
+        "index_notes": "",
+        "_family": "live_presentations",
+        "id": "EA-TALK-020",
+        "canonical_title": "Harness the power of JavaScript Proxies",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://www.linkedin.com/posts/shahar-polak_evyatar-alush-nodetlv-24-harness-the-activity-7220830784155230208-M_jc"
+        ],
+        "topics": [
+          "JavaScript",
+          "JavaScript Proxies",
+          "Proxy",
+          "React",
+          "Vest"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "NodeTLV 2024",
+        "primary_url": "https://youtube.com/watch?v=s9nFLWzt4c0",
+        "original_title": "",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "Reconciled from multiple sources.",
+        "confidence": "High",
+        "date": "2024-06-24",
+        "index_notes": "",
+        "_family": "live_presentations",
+        "id": "EA-TALK-019",
+        "canonical_title": "Re-Form the future. Rethinking Form Validations in React",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "Form Validation",
+          "Form Validations",
+          "JavaScript",
+          "React",
+          "Vest"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "ReactNext",
+        "primary_url": "https://youtube.com/watch?v=Toa1aLVOE9Q",
+        "original_title": "Evyatar Alush @ ReactNext 24` | Re-Form the future. Rethinking Form Validations in React",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "The public React IL Meetup page and organizer announcement name Evyatar and identify the CSS-only React search session.",
+        "confidence": "High",
+        "date": "2024-04-10",
+        "index_notes": "Distinct live delivery. It should not be merged with conference versions of the CSS-search talk.",
+        "_family": "live_presentations",
+        "id": "EA-TALK-035",
+        "canonical_title": "Building CSS Only Search in React?!",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://x.com/eventhandlerPro/status/1772211845778059645"
+        ],
+        "topics": [
+          "CSS",
+          "Performance",
+          "React",
+          "Search"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "React IL Meetup at Elementor",
+        "primary_url": "https://www.meetup.com/react-il/events/299130762/",
+        "original_title": "Building CSS Only Search in React?!",
+        "entity_type": "Meetup Talk"
+      },
+      {
+        "verification_summary": "Evyatar's first-party X post documents building React Context from scratch at JavaScriptCon Singapore.",
+        "confidence": "High",
+        "date": "2023-12-14",
+        "index_notes": "Distinct event delivery of a reusable talk.",
+        "_family": "live_presentations",
+        "id": "EA-TALK-036",
+        "canonical_title": "Let's Build React Context in Vanilla JS",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "Context API",
+          "JavaScript",
+          "Live Coding",
+          "React"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "JavaScriptCon Singapore 2023",
+        "primary_url": "https://x.com/evyataral/status/1735212552647282938",
+        "original_title": "Let's Build React Context in Vanilla JS",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "The GitNation talk page names Evyatar Alush as speaker and shows the talk date as “12 Dec, 2023.” The React Day Berlin 2023 site lists Evyatar Alush with the same talk, and certificate 15399 links the same speaker, content title, and event.",
+        "confidence": "High",
+        "date": "2023-12-12",
+        "index_notes": "Merged multiple URL groups representing the same event delivery.",
+        "_family": "live_presentations",
+        "id": "EA-TALK-017",
+        "canonical_title": "CSS Only* Search: Improve React Filtering Performance with CSS!",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://reactday.berlin/2023",
+          "https://portal.gitnation.org/contents/css-only-search-improve-react-filtering-performance-with-css",
+          "https://gitnation.com/person/evyatar_alush/certificates/15399"
+        ],
+        "topics": [
+          "CSS",
+          "emoji-picker-react",
+          "filtering",
+          "JavaScript",
+          "Performance",
+          "performance",
+          "React",
+          "React Filtering",
+          "Vest"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "React Day Berlin 2023",
+        "primary_url": "https://gitnation.com/contents/css-only-search-improve-react-filtering-performance-with-css",
+        "original_title": "CSS Only* Search: Improve React Filtering Performance with CSS!",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "The official FullStack Europe LinkedIn announcement names Evyatar and describes the JavaScript Proxies session. Evyatar's official site independently lists FullStack Europe in Belgium in October 2023.",
+        "confidence": "High",
+        "date": "2023-10",
+        "index_notes": "Organizer announcement is the strongest surviving session-level endpoint located during the LinkedIn audit.",
+        "_family": "live_presentations",
+        "id": "EA-TALK-039",
+        "canonical_title": "JavaScript Proxies: Benefits and Practical Applications",
+        "verification_status": "confirmed",
+        "date_precision": "month",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "API Design",
+          "JavaScript",
+          "Meta-programming",
+          "Proxies"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "FullStack Europe 2023",
+        "primary_url": "https://www.linkedin.com/posts/fullstackeu_excited-to-announce-our-speaker-evyatar-activity-7110522397367099393-dlV8",
+        "original_title": "JavaScript Proxies: Benefits and Practical Applications",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "Found via YouTube for code.talks 23. The social-source audit added first-party, organizer, host, or attendee evidence for this resource.",
+        "confidence": "High",
+        "date": "2023-09",
+        "index_notes": "",
+        "_family": "live_presentations",
+        "id": "EA-TALK-015",
+        "canonical_title": "Let's Build React Context From Scratch in JS",
+        "verification_status": "confirmed",
+        "date_precision": "month",
+        "language": "English",
+        "related_urls": [
+          "https://x.com/evyataral/status/1702421453994614968"
+        ],
+        "topics": [],
+        "role": "Speaker",
+        "publisher_or_event": "code.talks",
+        "primary_url": "https://youtube.com/watch?v=qR2-K8Qwt4w",
+        "original_title": "",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "Speaker is Evyatar Alush",
+        "confidence": "High",
+        "date": "2023-07-03",
+        "index_notes": "",
+        "_family": "live_presentations",
+        "id": "EA-TALK-014",
+        "canonical_title": "Let's Build React Context in Vanilla JS",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "JavaScript",
+          "React",
+          "React Context",
+          "Vanilla JS",
+          "Vest"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "ReactNext '23",
+        "primary_url": "https://youtube.com/watch?v=tt1ZuyoPcFc",
+        "original_title": "Let's Build React Context in Vanilla JS",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "Confirmed via Maakaf Meetup blog post.",
+        "confidence": "High",
+        "date": "2023-06-21",
+        "index_notes": "Merged multiple URL groups representing the same event delivery.",
+        "_family": "live_presentations",
+        "id": "EA-TALK-013",
+        "canonical_title": "Open Source Development: Myths, Misconceptions, and Realities",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://youtube.com/watch?v=vLB93fqlvDE"
+        ],
+        "topics": [
+          "Community",
+          "Open Source"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "Maakaf Meetup",
+        "primary_url": "https://szabgab.com/daily-2023-06-21",
+        "original_title": "",
+        "entity_type": "Meetup Talk"
+      },
+      {
+        "verification_summary": "Evyatar's first-party X post documents the DevDay Belgium delivery and live React Context implementation.",
+        "confidence": "High",
+        "date": "2023-03-23",
+        "index_notes": "Distinct event delivery of a reusable talk.",
+        "_family": "live_presentations",
+        "id": "EA-TALK-037",
+        "canonical_title": "Let's Build React Context in Vanilla JS",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "Context API",
+          "JavaScript",
+          "Live Coding",
+          "React"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "DevDay Belgium 2023",
+        "primary_url": "https://x.com/evyataral/status/1638835662064431104",
+        "original_title": "Let's Build React Context in Vanilla JS",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "The GitNation profile lists “Using Tests for What?!” under Evyatar Alush. The TestJS Summit 2022 site includes “Using Tests for What?! - Evyatar Alush” and the certificate page ties certificate 15757 to content slug `using-tests-for-what` and event `TestJS Summit 2022`. Public pages did not expose a talk-specific session date, so the date is normalized only to the event month.",
+        "confidence": "High",
+        "date": "2022-11",
+        "index_notes": "Merged multiple URL groups representing the same event delivery.",
+        "_family": "live_presentations",
+        "id": "EA-TALK-012",
+        "canonical_title": "Using Tests for What?!",
+        "verification_status": "confirmed",
+        "date_precision": "month",
+        "language": "English",
+        "related_urls": [
+          "https://gitnation.com/person/evyatar_alush/certificates/15757",
+          "https://gitnation.com/events/testjs-summit-2022/speakers",
+          "https://portal.gitnation.org/contents/using-tests-for-what",
+          "https://testjssummit.com/2022/"
+        ],
+        "topics": [
+          "form validation",
+          "testing",
+          "Vest"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "TestJS Summit 2022",
+        "primary_url": "https://gitnation.com/contents/using-tests-for-what",
+        "original_title": "Using Tests for What?!",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "Reconciled from multiple sources. The social-source audit added first-party, organizer, host, or attendee evidence for this resource.",
+        "confidence": "High",
+        "date": "2022-09-15",
+        "index_notes": "",
+        "_family": "live_presentations",
+        "id": "EA-TALK-011",
+        "canonical_title": "Form Validations Do Not Have To Suck — Introducing Vest! (code.talks 2022)",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://x.com/evyataral/status/1570383569561976832"
+        ],
+        "topics": [
+          "Form Validation",
+          "Vest"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "code.talks 2022",
+        "primary_url": "https://youtube.com/watch?v=N7m-pwMQLD8",
+        "original_title": "code.talks 2022 - Form Validations Do Not Have To Suck. Introducing Vest!",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "The direct ConfrontJS recording identifies Evyatar Alush and the talk title. Evyatar’s official site independently confirms ConfrontJS Warsaw in March 2022.",
+        "confidence": "High",
+        "date": "2022-03",
+        "index_notes": "A previously attached Frontendistim Facebook URL was unrelated and has been removed.",
+        "_family": "live_presentations",
+        "id": "EA-TALK-010",
+        "canonical_title": "Building a Next-Gen Validations Framework",
+        "verification_status": "confirmed",
+        "date_precision": "month",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "API Design",
+          "Form Validation",
+          "Vest",
+          "Vest.js"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "ConfrontJS 2022",
+        "primary_url": "https://www.youtube.com/watch?v=85yHAEcn630",
+        "original_title": "Evyatar Alush - Building a next-gen validations framework",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "YouTube page confirms Evyatar Alush as speaker; channel is Negev Web Developers; upload ~3 years before 2025 = ~2022",
+        "confidence": "High",
+        "date": "2022",
+        "index_notes": "Direct recording confirmed. Only the year is currently recoverable.",
+        "_family": "live_presentations",
+        "id": "EA-TALK-008",
+        "canonical_title": "Building an Assertion Library with JS Proxy",
+        "verification_status": "confirmed",
+        "date_precision": "year",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "JavaScript",
+          "Proxy",
+          "Testing"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "Negev Web Developers",
+        "primary_url": "https://youtube.com/watch?v=-LwzNNoeOAs",
+        "original_title": "Evyatar Alush - Building an assertion library with JS Proxy",
+        "entity_type": "Meetup Talk"
+      },
+      {
+        "verification_summary": "URL exists but content not fully verified | Speaker is Evyatar Alush | YouTube video (rate limited, assumed verified) | Found on personal website | Name not explicitly found on page, relying on source list | Confirmed via Fiverr Talks 2022 and ealush.com. | Listed on personal website.",
+        "confidence": "High",
+        "date": "2022",
+        "index_notes": "",
+        "_family": "live_presentations",
+        "id": "EA-TALK-009",
+        "canonical_title": "Building an Assertion Library with Javascript Proxy",
+        "verification_status": "confirmed",
+        "date_precision": "year",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "Assertion Library",
+          "JavaScript",
+          "Javascript Proxy",
+          "React",
+          "Vest"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "Fiverr Talks",
+        "primary_url": "https://youtube.com/watch?v=9gthzbVaHYo",
+        "original_title": "Building an Assertion Library with Javascript Proxy",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "The official WeAreDevelopers video page names Evyatar, provides the talk title, and is independently corroborated by Evyatar's first-party X post.",
+        "confidence": "High",
+        "date": "2021-11-25",
+        "index_notes": "Recovered through the social-source audit and confirmed through an official recording page.",
+        "_family": "live_presentations",
+        "id": "EA-TALK-038",
+        "canonical_title": "Form Validation. The Tested Way",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://x.com/evyataral/status/1463881483035328520"
+        ],
+        "topics": [
+          "Form Validation",
+          "JavaScript",
+          "Testing",
+          "Vest"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "WeAreDevelopers JavaScript Congress 2021",
+        "primary_url": "https://www.wearedevelopers.com/videos/314/form-validation-the-tested-way",
+        "original_title": "Form Validation. The Tested Way",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "Reconciled from multiple sources.",
+        "confidence": "High",
+        "date": "2021-11-20",
+        "index_notes": "",
+        "_family": "live_presentations",
+        "id": "EA-TALK-007",
+        "canonical_title": "Up Your Form Validation Game with Vest",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://sveltesociety.dev/?tags=utility&tags=spa&type=video",
+          "https://www.youtube.com/playlist?list=PL8bMgX1kyZTg2bI9IOMgfBc8lrU3v2itt"
+        ],
+        "topics": [
+          "Form Validation",
+          "JavaScript",
+          "React",
+          "Svelte",
+          "Vest",
+          "Vest.js"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "Svelte Summit",
+        "primary_url": "https://youtube.com/watch?v=X2PuiawaGV4",
+        "original_title": "Up Your Form Validation Game with Vest",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "The GitNation talk page names Evyatar Alush as speaker and dates the talk “20 Oct, 2021.” The Vue.js London Live 2021 program page lists Evyatar Alush and this talk with ISO time `2021-10-20T18:00:00.000Z`, and certificate 23536 ties the same speaker, event, and content. The related YouTube recording uses normalized watch URL format. | Name found on page | Listed on personal website and GitNation.",
+        "confidence": "High",
+        "date": "2021-10-20",
+        "index_notes": "Merged multiple URL groups representing the same event delivery.",
+        "_family": "live_presentations",
+        "id": "EA-TALK-006",
+        "canonical_title": "Vue Form Validations with Vest",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://vuejslive.com/2021/",
+          "https://www.youtube.com/watch?v=Ixj_RhQKffQ",
+          "https://gitnation.com/person/evyatar_alush/certificates/23536",
+          "https://portal.gitnation.org/contents/vue-form-validations-with-vest"
+        ],
+        "topics": [
+          "Form Validation",
+          "form validation",
+          "Form Validations",
+          "JavaScript",
+          "React",
+          "Vest",
+          "Vest.js",
+          "Vue",
+          "Vue.js"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "Vue.js London",
+        "primary_url": "https://gitnation.com/contents/vue-form-validations-with-vest",
+        "original_title": "Vue Form Validations with Vest",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "YouTube page confirms Evyatar Alush as speaker; channel is Pull Request; streamed live May 2, 2021",
+        "confidence": "High",
+        "date": "2021-05-02",
+        "index_notes": "",
+        "_family": "live_presentations",
+        "id": "EA-WORK-002",
+        "canonical_title": "Vest — Pull Request Workshop",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "Form Validation",
+          "Vest",
+          "Workshop"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "Pull Request (Israeli developer community)",
+        "primary_url": "https://youtube.com/watch?v=AIlfPXslA94",
+        "original_title": "Vest - Evyatar Alush [Pull Request Workshop]",
+        "entity_type": "Workshop"
+      },
+      {
+        "verification_summary": "Found on source page | Hebrew talk on open source | Speaker is Evyatar Alush | YouTube video (rate limited, assumed verified) | YouTube page confirms Evyatar Alush as speaker; channel is Pull Request; uploaded Mar 11, 2021 | Confirmed via Pull Request YouTube video and ealush.com. | Found on personal website | Name not explicitly found on page, relying on source list | Listed on personal website.",
+        "confidence": "High",
+        "date": "2021-03-11",
+        "index_notes": "",
+        "_family": "live_presentations",
+        "id": "EA-TALK-005",
+        "canonical_title": "What you need to know about contributing to open source",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "Mixed",
+        "related_urls": [],
+        "topics": [
+          "Community",
+          "JavaScript",
+          "Open Source",
+          "React",
+          "Vest"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "Pull Request (Israeli developer community)",
+        "primary_url": "https://youtube.com/watch?v=2D0LmCtVTSk",
+        "original_title": "What you need to know about contributing to open source",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "Reconciled from multiple sources.",
+        "confidence": "High",
+        "date": "2020-07",
+        "index_notes": "Merged multiple URL groups representing the same event delivery.",
+        "_family": "live_presentations",
+        "id": "EA-LIVE-001",
+        "canonical_title": "Vest Demo",
+        "verification_status": "confirmed",
+        "date_precision": "month",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "JavaScript",
+          "React",
+          "Vest"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "Twitter",
+        "primary_url": "https://x.com/evyataral/status/1281297006070284289",
+        "original_title": "Vest Demo",
+        "entity_type": "Livestream or Demo"
+      },
+      {
+        "verification_summary": "Reconciled from multiple sources.",
+        "confidence": "High",
+        "date": "",
+        "index_notes": "Direct Pull Request recording. Publication date not recovered.",
+        "_family": "live_presentations",
+        "id": "EA-WORK-001",
+        "canonical_title": "Vest Overview",
+        "verification_status": "confirmed",
+        "date_precision": "unknown",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "Vest.js"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "Pull Request",
+        "primary_url": "https://youtube.com/watch?v=UDtKwhLgPrk",
+        "original_title": "",
+        "entity_type": "Workshop"
+      },
+      {
+        "verification_summary": "Listed on iJS site.",
+        "confidence": "High",
+        "date": "",
+        "index_notes": "",
+        "_family": "live_presentations",
+        "id": "EA-TALK-002",
+        "canonical_title": "Let's Build React's Context API From Scratch in JS",
+        "verification_status": "confirmed",
+        "date_precision": "unknown",
+        "language": "English",
+        "related_urls": [],
+        "topics": [],
+        "role": "Speaker",
+        "publisher_or_event": "iJS",
+        "primary_url": "https://javascript-conference.com/javascript-practices-tools/reacts-context-api-from-scratch/",
+        "original_title": "",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "Listed on iJS site. The social-source audit added first-party, organizer, host, or attendee evidence for this resource.",
+        "confidence": "High",
+        "date": "",
+        "index_notes": "",
+        "_family": "live_presentations",
+        "id": "EA-TALK-001",
+        "canonical_title": "Do Forms on the Web Have to Suck?",
+        "verification_status": "confirmed",
+        "date_precision": "unknown",
+        "language": "English",
+        "related_urls": [
+          "https://x.com/evyataral/status/1585516347940823041"
+        ],
+        "topics": [],
+        "role": "Speaker",
+        "publisher_or_event": "iJS",
+        "primary_url": "https://javascript-conference.com/general-web-development/do-forms-on-the-web-have-to-suck/",
+        "original_title": "",
+        "entity_type": "Conference Talk"
+      }
+    ],
+    "appearances": [
+      {
+        "verification_summary": "Spotify and Apple Podcasts confirm the exact title, guest, description, and 10 May 2026 publication date. The host newsletter links the YouTube and Spotify editions. A stale duplicate dated 2024 was merged here.",
+        "confidence": "High",
+        "date": "2026-05-10",
+        "index_notes": "One appearance with Spotify, Apple Podcasts, YouTube, Amazon Music, LinkedIn, and host-newsletter endpoints.",
+        "_family": "spoken_appearances",
+        "id": "EA-POD-002",
+        "canonical_title": "Frontend at Meta with Evyatar Alush | Hack, Flow, Sapling, Open Source at Scale",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://podcasts.apple.com/us/podcast/frontend-at-meta-with-evyatar-alush-hack-flow-sapling/id1827500070?i=1000767032332",
+          "https://www.youtube.com/watch?v=8QtGGDRtcu4",
+          "https://neciudan.dev/newsletter/11th-edition",
+          "https://open.spotify.com/show/7FVT93UTOhafvQeZGKmV60",
+          "https://music.amazon.com/es-co/podcasts/be960b05-56bb-4d96-b337-c454a14d3fee/se%C3%B1ors-at-scale---software-engineering-tech-leadership",
+          "https://www.linkedin.com/posts/neciudan_frontend-at-meta-with-evyatar-alush-hack-activity-7459493760503255040-d7Dw"
+        ],
+        "topics": [
+          "Emoji Picker React",
+          "EmojiPicker React",
+          "Flow",
+          "Frontend",
+          "Frontend Engineering",
+          "Frontend Infrastructure",
+          "Hack",
+          "JavaScript",
+          "Meta",
+          "Meta frontend infra",
+          "Open Source",
+          "React",
+          "Relay",
+          "Sapling",
+          "Vest"
+        ],
+        "role": "Guest",
+        "publisher_or_event": "Señors at Scale",
+        "primary_url": "https://open.spotify.com/episode/5PF0l6xrXeL6706UXCwqVK",
+        "original_title": "Frontend at Meta with Evyatar Alush | Hack, Flow, Sapling, Open Source at Scale",
+        "entity_type": "Podcast Interview"
+      },
+      {
+        "verification_summary": "YouTube and Apple Podcasts confirm Season 4, Episode 147, published on 17 January 2026. The social-source audit added first-party, organizer, host, or attendee evidence for this resource.",
+        "confidence": "High",
+        "date": "2026-01-17",
+        "index_notes": "Clustered based on title and publisher matching.",
+        "_family": "spoken_appearances",
+        "id": "EA-POD-016",
+        "canonical_title": "פרק 147: תשאיר את זה לעורכי דין ותן לי לעשות קוד - עם אביתר אלוש",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "Hebrew",
+        "related_urls": [
+          "https://podcasts.apple.com/ch/podcast/%D7%A4%D7%A8%D7%A7-147-%D7%AA%D7%A9%D7%90%D7%99%D7%A8-%D7%90%D7%AA-%D7%96%D7%94-%D7%9C%D7%A2%D7%95%D7%A8%D7%9B%D7%99-%D7%93%D7%99%D7%9F-%D7%95%D7%AA%D7%9F-%D7%9C%D7%99-%D7%9C%D7%A2%D7%A9%D7%95%D7%AA-%D7%A7%D7%95%D7%93-%D7%A2%D7%9D-%D7%90%D7%91%D7%99%D7%AA%D7%A8-%D7%90%D7%9C%D7%95%D7%A9/id1595260676?i=1000745550803&l=it",
+          "https://youtube.com/watch?v=pFvdzC8x7gI",
+          "https://deezer.com/us/episode/834210942",
+          "https://www.linkedin.com/posts/shahar-polak_%D7%90%D7%97%D7%A8%D7%99-%D7%94%D7%98%D7%99%D7%96%D7%99%D7%A0%D7%92-%D7%94%D7%9B%D7%99-%D7%90%D7%A8%D7%95%D7%9A-%D7%91%D7%94%D7%99%D7%A1%D7%98%D7%95%D7%A8%D7%99%D7%94-%D7%94%D7%90%D7%A0%D7%95%D7%A9%D7%99%D7%AA-activity-7418594927464493056-RgNI"
+        ],
+        "topics": [
+          "Coding",
+          "Development",
+          "Emoji Picker",
+          "Emoji Picker React",
+          "flairup",
+          "JavaScript",
+          "Law",
+          "Meta",
+          "open source",
+          "Open source",
+          "Open Source",
+          "React",
+          "Vest"
+        ],
+        "role": "Guest",
+        "publisher_or_event": "מפתחים מחוץ לקופסה",
+        "primary_url": "https://open.spotify.com/episode/5yFvifgwBhXVUPe299BbAO",
+        "original_title": "פרק 147: תשאיר את זה לעורכי דין ותן לי לעשות קוד - עם אביתר אלוש",
+        "entity_type": "Podcast Interview"
+      },
+      {
+        "verification_summary": "Merged from multiple sources.",
+        "confidence": "High",
+        "date": "2025-07-10",
+        "index_notes": "Clustered based on title and publisher matching.",
+        "_family": "spoken_appearances",
+        "id": "EA-POD-020",
+        "canonical_title": "Speaking Up: The Developer’s Guide to Conference Talks & Career Growth - JSJ 682",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://spreaker.com/episode/speaking-up-the-developer-s-guide-to-conference-talks-career-growth-jsj-682--66931433",
+          "https://podcasts.apple.com/us/podcast/speaking-up-the-developers-guide-to-conference-talks/id1237401284?i=1000716727386",
+          "https://www.youtube.com/watch?v=AMOz9Kmsmys",
+          "https://podcasts.apple.com/gb/podcast/speaking-up-the-developers-guide-to-conference-talks/id496893300?i=1000716726635",
+          "https://www.iheart.com/podcast/256-javascript-jabber-31085088/episode/speaking-up-the-developers-guide-to-285293627/"
+        ],
+        "topics": [
+          "Career Growth",
+          "career growth",
+          "conference talks",
+          "Conference Talks",
+          "JavaScript",
+          "public speaking",
+          "Public speaking in tech",
+          "React",
+          "Vest"
+        ],
+        "role": "Guest",
+        "publisher_or_event": "JavaScript Jabber",
+        "primary_url": "https://open.spotify.com/episode/1Elm2EdKYVV36617CvJ8AY",
+        "original_title": "Speaking Up: The Developer’s Guide to Conference Talks & Career Growth - JSJ 682",
+        "entity_type": "Podcast Interview"
+      },
+      {
+        "verification_summary": "Merged from multiple sources.",
+        "confidence": "High",
+        "date": "2024-12-22",
+        "index_notes": "Clustered based on title and publisher matching.",
+        "_family": "spoken_appearances",
+        "id": "EA-POD-019",
+        "canonical_title": "פרק {22} = למידה למפתחים עם אביתר אלוש",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "Hebrew",
+        "related_urls": [
+          "https://podtail.se/podcast/d3b17d49/--22/",
+          "https://www.youtube.com/watch?v=xQ86j6ht2xw",
+          "https://podtail.com/de/podcast/d3b17d49/--22/",
+          "https://open.spotify.com/episode/32S02ezAGwMpFPnY2Gd3Zw",
+          "https://podcasters.spotify.com/pod/show/lotechni/episodes/22-e2s0um5",
+          "https://podcasts.apple.com/gb/podcast/%D7%A4%D7%A8%D7%A7-22-%D7%9C%D7%9E%D7%99%D7%93%D7%94-%D7%9C%D7%9E%D7%A4%D7%AA%D7%97%D7%99%D7%9D-%D7%A2%D7%9D-%D7%90%D7%91%D7%99%D7%AA%D7%A8-%D7%90%D7%9C%D7%95%D7%A9/id1724399310?i=1000681348062"
+        ],
+        "topics": [
+          "AI",
+          "Developer Career",
+          "Development",
+          "Effective learning for developers",
+          "Impostor Syndrome",
+          "Learning",
+          "Learning for developers",
+          "learning for developers"
+        ],
+        "role": "Guest",
+        "publisher_or_event": "לא טכני ולא במקרה",
+        "primary_url": "https://lotechni.dev/episodes/22",
+        "original_title": "פרק {22} = למידה למפתחים עם אביתר אלוש",
+        "entity_type": "Podcast Interview"
+      },
+      {
+        "verification_summary": "Merged from multiple sources.",
+        "confidence": "High",
+        "date": "2024-02-11",
+        "index_notes": "Clustered based on title and publisher matching.",
+        "_family": "spoken_appearances",
+        "id": "EA-POD-017",
+        "canonical_title": "Episode #13 | Form validation, how to do it right? with Evyatar Alush",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "Hebrew",
+        "related_urls": [
+          "https://youtube.com/watch?v=gda9dm0keYs"
+        ],
+        "topics": [
+          "Form Validation",
+          "Form validations and Vest.js",
+          "Vest"
+        ],
+        "role": "Guest",
+        "publisher_or_event": "מדברים פיתוח",
+        "primary_url": "https://open.spotify.com/episode/1KIn6sqGxSzhJIdz1cBC6X",
+        "original_title": "פרק #13 | ולידציה בטפסים, איך עושים את זה נכון? עם אביתר אלוש",
+        "entity_type": "Podcast Interview"
+      },
+      {
+        "verification_summary": "Merged from multiple sources.",
+        "confidence": "High",
+        "date": "2023-12-11",
+        "index_notes": "Clustered based on title and publisher matching.",
+        "_family": "spoken_appearances",
+        "id": "EA-TALK-016",
+        "canonical_title": "Form the Future with Vest",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "Hebrew",
+        "related_urls": [],
+        "topics": [
+          "Form Validation",
+          "Vest"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "אדיר קנדל (Adir Kandel)",
+        "primary_url": "https://youtube.com/watch?v=eUCjfyuQBEE",
+        "original_title": "אביתר אלוש - Form the future with Vest",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "Merged from multiple sources.",
+        "confidence": "High",
+        "date": "2023-12-07",
+        "index_notes": "Clustered based on title and publisher matching.",
+        "_family": "spoken_appearances",
+        "id": "EA-POD-015",
+        "canonical_title": "Better Form Validation with Vest",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://www.devshows.dev/podcasts/compressed-fm/161-%7C-better-form-validation-with-vest"
+        ],
+        "topics": [
+          "Form Validation",
+          "JavaScript",
+          "Open Source",
+          "React",
+          "Vest",
+          "Vest.js"
+        ],
+        "role": "Guest",
+        "publisher_or_event": "Compressed.FM",
+        "primary_url": "https://compressed.fm/episode/161",
+        "original_title": "Better Form Validation with Vest",
+        "entity_type": "Podcast Interview"
+      },
+      {
+        "verification_summary": "Merged from multiple sources. The social-source audit added first-party, organizer, host, or attendee evidence for this resource.",
+        "confidence": "High",
+        "date": "2023-11-09",
+        "index_notes": "Clustered based on title and publisher matching.",
+        "_family": "spoken_appearances",
+        "id": "EA-POD-014",
+        "canonical_title": "Who's Afraid Of Open Source? on Web Rush #261",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://webrush.io/episodes/episode-261-whos-afraid-of-open-source",
+          "https://x.com/web_rush/status/1730271471384051849"
+        ],
+        "topics": [
+          "API Development",
+          "JavaScript",
+          "Open Source",
+          "React",
+          "Vest"
+        ],
+        "role": "Guest",
+        "publisher_or_event": "Web Rush",
+        "primary_url": "https://www.johnpapa.net/whos-afraid-of-open-source-on-web-rush-261/",
+        "original_title": "Who's Afraid Of Open Source? on Web Rush #261",
+        "entity_type": "Podcast Interview"
+      },
+      {
+        "verification_summary": "Merged from multiple sources.",
+        "confidence": "High",
+        "date": "2023-09-05",
+        "index_notes": "The DEV publisher page and YouTube recording are live; obsolete Top End Devs paths were removed.",
+        "_family": "spoken_appearances",
+        "id": "EA-POD-013",
+        "canonical_title": "What if your JavaScript Validations Looked like Tests? - JSJ 597",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://talk.youradio.cz/porady/javascript-jabber-1/what-if-your-javascript-validations-looked-like-tests-jsj-1",
+          "https://www.youtube.com/watch?v=czHfePaGJPo"
+        ],
+        "topics": [
+          "Form Validation",
+          "JavaScript",
+          "JavaScript Validations",
+          "React",
+          "Tests",
+          "Vest"
+        ],
+        "role": "Guest",
+        "publisher_or_event": "JavaScript Jabber",
+        "primary_url": "https://dev.to/jsjabber/what-if-your-javascript-validations-looked-like-tests-jsj-597",
+        "original_title": "What if your JavaScript Validations Looked like Tests? - JSJ 597",
+        "entity_type": "Podcast Interview"
+      },
+      {
+        "verification_summary": "Merged from multiple sources.",
+        "confidence": "High",
+        "date": "2023-01-12",
+        "index_notes": "Clustered based on title and publisher matching.",
+        "_family": "spoken_appearances",
+        "id": "EA-POD-012",
+        "canonical_title": "JavaScript Proxies with Evyatar Alush on Web Rush #216",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://poddtoppen.se/podcast/1437407176/web-rush/episode-216-javascript-proxies-with-evyatar-alush",
+          "https://webrush.io/episodes/episode-216-javascript-proxies-with-evyatar-alush",
+          "https://www.devshows.dev/podcasts/web-rush"
+        ],
+        "topics": [
+          "JavaScript",
+          "JavaScript Proxies",
+          "React",
+          "Vest"
+        ],
+        "role": "Guest",
+        "publisher_or_event": "Web Rush",
+        "primary_url": "https://www.johnpapa.net/javascript-proxies-with-evyatar-alush-on-web-rush/",
+        "original_title": "JavaScript Proxies with Evyatar Alush on Web Rush #216",
+        "entity_type": "Podcast Interview"
+      },
+      {
+        "verification_summary": "Merged from multiple sources.",
+        "confidence": "High",
+        "date": "2022-09-29",
+        "index_notes": "Clustered based on title and publisher matching.",
+        "_family": "spoken_appearances",
+        "id": "EA-POD-011",
+        "canonical_title": "The Return of the Man from Vest with Evyatar Alush",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://www.webrush.io/episodes/episode-203-the-return-of-the-man-from-vest-with-evyatar-alush",
+          "https://open.spotify.com/episode/4FHfrSMtsxJAz6auiV3FG4",
+          "https://poddtoppen.se/podcast/1437407176/web-rush/episode-203-the-return-of-the-man-from-vest-with-evyatar-alush"
+        ],
+        "topics": [
+          "JavaScript",
+          "React",
+          "Vest",
+          "Vest framework",
+          "Vest.js"
+        ],
+        "role": "Guest",
+        "publisher_or_event": "Web Rush",
+        "primary_url": "https://devshows.dev/podcasts/web-rush/episode-203-the-return-of-the-man-from-vest-with-evyatar-alush",
+        "original_title": "The Return of the Man from Vest with Evyatar Alush",
+        "entity_type": "Podcast Interview"
+      },
+      {
+        "verification_summary": "Merged from multiple sources.",
+        "confidence": "High",
+        "date": "2022-06-30",
+        "index_notes": "Clustered based on title and publisher matching.",
+        "_family": "spoken_appearances",
+        "id": "EA-POD-010",
+        "canonical_title": "Wearing a Vest is In Style, with Evyatar Alush on Web Rush #188",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://webrush.io/episodes/episode-188-wearing-a-vest-is-in-style-with-evyatar-alush",
+          "https://podcasts.apple.com/us/podcast/episode-188-wearing-a-vest-is-in-style-with-evyatar-alush/id1437407176?i=1000566622678"
+        ],
+        "topics": [
+          "JavaScript",
+          "React",
+          "Vest",
+          "Vest.js"
+        ],
+        "role": "Guest",
+        "publisher_or_event": "Web Rush",
+        "primary_url": "https://www.johnpapa.net/wearing-a-vest-is-in-style-with-evyatar-alush-on-web-rush-188/",
+        "original_title": "Wearing a Vest is In Style, with Evyatar Alush on Web Rush #188",
+        "entity_type": "Podcast Interview"
+      },
+      {
+        "verification_summary": "Merged from multiple sources.",
+        "confidence": "High",
+        "date": "2022-06-15",
+        "index_notes": "Clustered based on title and publisher matching.",
+        "_family": "spoken_appearances",
+        "id": "EA-POD-009",
+        "canonical_title": "Episode 14 | code reviews",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "Hebrew",
+        "related_urls": [
+          "https://podcasts.apple.com/us/podcast/%D7%A4%D7%A8%D7%A7-14-code-reviews/id1602127968?i=1000566561917"
+        ],
+        "topics": [
+          "code reviews"
+        ],
+        "role": "Guest Interviewer",
+        "publisher_or_event": "קוד פתוח",
+        "primary_url": "https://myishay.podbean.com/e/%d7%a4%d7%a8%d7%a7-14-code-reviews",
+        "original_title": "פרק 14 | code reviews",
+        "entity_type": "Podcast Interview"
+      },
+      {
+        "verification_summary": "Merged from multiple sources.",
+        "confidence": "High",
+        "date": "2022-05-30",
+        "index_notes": "Clustered based on title and publisher matching.",
+        "_family": "spoken_appearances",
+        "id": "EA-POD-008",
+        "canonical_title": "Every Question Answered",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "Hebrew",
+        "related_urls": [],
+        "topics": [
+          "Frontend",
+          "JavaScript",
+          "Open Source",
+          "React",
+          "Vest"
+        ],
+        "role": "Guest",
+        "publisher_or_event": "FED Cast IL",
+        "primary_url": "https://fedcast.co.il/%D7%9C%D7%9B%D7%9C_%D7%A9%D7%90%D7%9C%D7%94_%D7%AA%D7%A9%D7%95%D7%91%D7%94/1505/%D7%9C%D7%9B%D7%9C-%D7%A9%D7%90%D7%9C%D7%94-%D7%AA%D7%A9%D7%95%D7%91%D7%94-%D7%A2%D7%9D-%D7%90%D7%91%D7%99%D7%AA%D7%A8-%D7%90%D7%9C%D7%95%D7%A9",
+        "original_title": "לכל שאלה תשובה עם אביתר אלוש",
+        "entity_type": "Podcast Interview"
+      },
+      {
+        "verification_summary": "Merged from multiple sources.",
+        "confidence": "High",
+        "date": "2022-03-10",
+        "index_notes": "Clustered based on title and publisher matching.",
+        "_family": "spoken_appearances",
+        "id": "EA-POD-007",
+        "canonical_title": "Episode 7 | APIs",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "Hebrew",
+        "related_urls": [],
+        "topics": [
+          "API Design",
+          "APIs and open source",
+          "JavaScript",
+          "Open Source",
+          "React",
+          "Vest"
+        ],
+        "role": "Guest",
+        "publisher_or_event": "Open Source Podcast",
+        "primary_url": "https://open.spotify.com/episode/2mrcevFlUKAxcUdQ4pyTYj",
+        "original_title": "פרק 7 | APIs",
+        "entity_type": "Podcast Interview"
+      },
+      {
+        "verification_summary": "Merged from multiple sources. The social-source audit added first-party, organizer, host, or attendee evidence for this resource.",
+        "confidence": "High",
+        "date": "2022-02-15",
+        "index_notes": "Clustered based on title and publisher matching.",
+        "_family": "spoken_appearances",
+        "id": "EA-POD-006",
+        "canonical_title": "Vest with Evyatar Alush",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://podrocket.logrocket.com/vest",
+          "https://open.spotify.com/episode/3Vb3NKbH5CN24PSQJSsyDO",
+          "https://www.youtube.com/watch?v=IyvJ5JH1oI4",
+          "https://podcasts.apple.com/us/podcast/vest-with-evyatar-alush/id1539945251?i=1000551160389",
+          "https://www.imdb.com/title/tt39703932/",
+          "https://x.com/PodRocketpod/status/1676624934586466305"
+        ],
+        "topics": [
+          "declarative validations framework",
+          "Form Validation",
+          "JavaScript",
+          "React",
+          "unit testing libraries",
+          "Vest",
+          "Vest validations framework",
+          "Vest.js"
+        ],
+        "role": "Guest",
+        "publisher_or_event": "PodRocket (DEV Community)",
+        "primary_url": "https://dev.to/podrocket/vest-with-evyatar-alush",
+        "original_title": "Vest with Evyatar Alush",
+        "entity_type": "Podcast Interview"
+      },
+      {
+        "verification_summary": "Merged from multiple sources.",
+        "confidence": "High",
+        "date": "2022-02-10",
+        "index_notes": "Clustered based on title and publisher matching.",
+        "_family": "spoken_appearances",
+        "id": "EA-POD-005",
+        "canonical_title": "Playing it close to the Vest (JS Party #213)",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://www.youtube.com/watch?v=RffT2uyuYjY",
+          "https://dev.to/jsparty/playing-it-close-to-the-vest"
+        ],
+        "topics": [
+          "JavaScript",
+          "React",
+          "Vest",
+          "Vest.js"
+        ],
+        "role": "Guest",
+        "publisher_or_event": "JS Party",
+        "primary_url": "https://changelog.com/jsparty/213",
+        "original_title": "Playing it close to the Vest",
+        "entity_type": "Podcast Interview"
+      },
+      {
+        "verification_summary": "Direct YouTube recording confirms Evyatar Alush as the guest and the React Round Up episode title. Legacy publisher paths currently fail.",
+        "confidence": "High",
+        "date": "2021-08-04",
+        "index_notes": "Legacy reactroundup.com and Top End Devs URLs were removed after live-link validation.",
+        "_family": "spoken_appearances",
+        "id": "EA-POD-004",
+        "canonical_title": "Form Validations and Open Source",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "Form Validation",
+          "Form Validations",
+          "JavaScript",
+          "Open Source",
+          "React",
+          "Vest"
+        ],
+        "role": "Guest",
+        "publisher_or_event": "React Roundup Podcast",
+        "primary_url": "https://www.youtube.com/watch?v=TePLkgjUBHA",
+        "original_title": "Form Validations and Open Source",
+        "entity_type": "Podcast Interview"
+      },
+      {
+        "verification_summary": "Merged from multiple sources. The social-source audit added first-party, organizer, host, or attendee evidence for this resource.",
+        "confidence": "High",
+        "date": "2021-07-28",
+        "index_notes": "Clustered based on title and publisher matching.",
+        "_family": "spoken_appearances",
+        "id": "EA-POD-003",
+        "canonical_title": "DX is UX",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://creators.spotify.com/pod/profile/frontend-greatness/episodes/DX-is-UX-With-Evyatar-e12tco9",
+          "https://podcasts.apple.com/us/podcast/frontend-greatness/id1546641347",
+          "https://podcasts.apple.com/us/podcast/dx-is-ux-with-evyatar/id1546641347?i=1000525779486",
+          "https://x.com/APKoponen/status/1404866507847438339",
+          "https://x.com/FrontendGr8ness/status/1405452909051990016"
+        ],
+        "topics": [
+          "DX",
+          "DX and UX principles",
+          "JavaScript",
+          "React",
+          "UX",
+          "Vest",
+          "Vest validations framework"
+        ],
+        "role": "Guest",
+        "publisher_or_event": "Frontend Greatness Podcast",
+        "primary_url": "https://anchor.fm/frontend-greatness/episodes/DX-is-UX-With-Evyatar-e12tco9",
+        "original_title": "DX is UX",
+        "entity_type": "Podcast Interview"
+      },
+      {
+        "verification_summary": "Merged from multiple sources. The social-source audit added first-party, organizer, host, or attendee evidence for this resource.",
+        "confidence": "High",
+        "date": "2020-10-21",
+        "index_notes": "Clustered based on title and publisher matching.",
+        "_family": "spoken_appearances",
+        "id": "EA-TALK-004",
+        "canonical_title": "Form Validations with VEST (Conf42 JavaScript 2020)",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://x.com/conf42com/status/1326843918479216640"
+        ],
+        "topics": [
+          "Form Validation",
+          "Form Validations",
+          "Form validations",
+          "JavaScript",
+          "React",
+          "Vest",
+          "Vest.js"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "(Conf42)",
+        "primary_url": "https://youtube.com/watch?v=mL9ocOBg2y4",
+        "original_title": "Form Validations with VEST | Alush Evyatar | Conf42 JavaScript 2020",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "Merged from multiple sources.",
+        "confidence": "High",
+        "date": "2019-06-16",
+        "index_notes": "Clustered based on title and publisher matching.",
+        "_family": "spoken_appearances",
+        "id": "EA-TALK-003",
+        "canonical_title": "Rethinking JS Form Validations — Say Hi to Passable",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "Hebrew",
+        "related_urls": [
+          "https://summit2019.reversim.com/speaker/5c75a177e037850017ca38c4"
+        ],
+        "topics": [
+          "Form Validation",
+          "Form Validations",
+          "Form validations",
+          "JavaScript",
+          "Passable",
+          "React",
+          "Vest"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "Reversim Summit 2019",
+        "primary_url": "https://youtube.com/watch?v=_R5WfSXBruk",
+        "original_title": "Rethinking JS form validations. Say hi to Passable / Evyatar Alush",
+        "entity_type": "Conference Talk"
+      },
+      {
+        "verification_summary": "Merged from multiple sources.",
+        "confidence": "High",
+        "date": "",
+        "index_notes": "Top End Devs legacy episode URL currently returns 404; live platform mirrors are retained.",
+        "_family": "spoken_appearances",
+        "id": "EA-POD-001",
+        "canonical_title": "Open Source - The Podcast",
+        "verification_status": "confirmed",
+        "date_precision": "unknown",
+        "language": "Hebrew",
+        "related_urls": [],
+        "topics": [
+          "Open Source"
+        ],
+        "role": "Guest",
+        "publisher_or_event": "Pull Request",
+        "primary_url": "https://facebook.com/groups/267564648686066",
+        "original_title": "קוד פתוח - הפודקאסט",
+        "entity_type": "Podcast Interview"
+      }
+    ],
+    "articles": [
+      {
+        "verification_summary": "Substantive first-party technical thread authored by Evyatar and preserved at the canonical @evyataral endpoint.",
+        "confidence": "High",
+        "date": "2022-10-12",
+        "index_notes": "Included as durable written technical work, not as a talk or appearance.",
+        "_family": "articles",
+        "id": "EA-ARTICLE-010",
+        "canonical_title": "CSS-only emoji search in ReactJS",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "CSS",
+          "Emoji",
+          "Performance",
+          "React",
+          "Search"
+        ],
+        "role": "Author",
+        "publisher_or_event": "X/Twitter",
+        "primary_url": "https://x.com/evyataral/status/1580285446051237889",
+        "original_title": "CSS-only emoji search in ReactJS",
+        "entity_type": "Technical Thread"
+      },
+      {
+        "verification_summary": "Verified across multiple sources.",
+        "confidence": "High",
+        "date": "2022-08-18",
+        "index_notes": "",
+        "_family": "articles",
+        "id": "EA-ARTICLE-009",
+        "canonical_title": "An Introduction To Context Propagation In JavaScript",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "JavaScript",
+          "React",
+          "React Context",
+          "Vanilla JS",
+          "Vest"
+        ],
+        "role": "Author",
+        "publisher_or_event": "Smashing Magazine",
+        "primary_url": "https://smashingmagazine.com/2022/08/react-context-propagation-javascript",
+        "original_title": "An Introduction To Context Propagation In JavaScript",
+        "entity_type": "Article"
+      },
+      {
+        "verification_summary": "Reconciled from multiple sources.",
+        "confidence": "High",
+        "date": "2020-07-11",
+        "index_notes": "",
+        "_family": "articles",
+        "id": "EA-ARTICLE-008",
+        "canonical_title": "Dead Simple React Validations with Vest.",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "JavaScript",
+          "React",
+          "Validations",
+          "Vest"
+        ],
+        "role": "Author",
+        "publisher_or_event": "Dev.to",
+        "primary_url": "https://dev.to/ealush/dead-simple-form-validation-with-vest-5gf8",
+        "original_title": "Dead Simple React Validations with Vest.",
+        "entity_type": "Article"
+      },
+      {
+        "verification_summary": "Reconciled from multiple sources.",
+        "confidence": "High",
+        "date": "2020-01-15",
+        "index_notes": "",
+        "_family": "articles",
+        "id": "EA-ARTICLE-007",
+        "canonical_title": "Fight Validations Spaghetti with Vest.",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "JavaScript",
+          "React",
+          "Validations",
+          "Vest"
+        ],
+        "role": "Author",
+        "publisher_or_event": "Dev.to",
+        "primary_url": "https://dev.to/ealush/fight-validations-spaghetti-with-vest-3i8j",
+        "original_title": "Fight Validations Spaghetti with Vest.",
+        "entity_type": "Article"
+      },
+      {
+        "verification_summary": "Listed on personal website. | Evyatar writes about API design. | URL exists but content not fully verified | Medium article page | Author is Evyatar Alush | Medium article (403, assumed verified) | Page inaccessible, relying on source list | Found on personal website",
+        "confidence": "High",
+        "date": "2019-01-30",
+        "index_notes": "",
+        "_family": "articles",
+        "id": "EA-ARTICLE-006",
+        "canonical_title": "Creating APIs for the human developer",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "API Design",
+          "JavaScript",
+          "React",
+          "Vest"
+        ],
+        "role": "Author",
+        "publisher_or_event": "Fiverr Engineering (Medium)",
+        "primary_url": "https://medium.com/fiverr-engineering/creating-apis-for-the-human-developer-c0f51a6d9366",
+        "original_title": "Creating APIs for the human developer",
+        "entity_type": "Article"
+      },
+      {
+        "verification_summary": "Reconciled from multiple sources.",
+        "confidence": "High",
+        "date": "2018-07-17",
+        "index_notes": "",
+        "_family": "articles",
+        "id": "EA-ARTICLE-005",
+        "canonical_title": "Writing a JS Proxy based assertion function",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "JavaScript",
+          "React",
+          "Vest"
+        ],
+        "role": "Author",
+        "publisher_or_event": "Medium (Fiverr Engineering)",
+        "primary_url": "https://medium.com/fiverr-engineering/writing-a-js-proxy-based-assertion-function-5a7359df9f9b",
+        "original_title": "Writing a JS Proxy based assertion function",
+        "entity_type": "Article"
+      },
+      {
+        "verification_summary": "Listed on personal website. | URL exists but content not fully verified | Medium article page | Evyatar introduces Passable. | Author is Evyatar Alush | Medium article (403, assumed verified) | Page inaccessible, relying on source list | Found on personal website",
+        "confidence": "High",
+        "date": "2017-09-30",
+        "index_notes": "",
+        "_family": "articles",
+        "id": "EA-ARTICLE-004",
+        "canonical_title": "Introducing Passable",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "Form Validation",
+          "JavaScript",
+          "Passable",
+          "React",
+          "Vest"
+        ],
+        "role": "Author",
+        "publisher_or_event": "Fiverr Engineering (Medium)",
+        "primary_url": "https://medium.com/fiverr-engineering/introducing-passable-45250548afd1",
+        "original_title": "Introducing Passable",
+        "entity_type": "Article"
+      },
+      {
+        "verification_summary": "Listed on iJS blog.",
+        "confidence": "High",
+        "date": "2017-06-28",
+        "index_notes": "",
+        "_family": "articles",
+        "id": "EA-ARTICLE-003",
+        "canonical_title": "The ultimate JavaScript Plugin Cheat Sheet",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [],
+        "topics": [],
+        "role": "Author",
+        "publisher_or_event": "iJS",
+        "primary_url": "https://javascript-conference.com/blog/ultimate-javascript-plugin-cheat-sheet/",
+        "original_title": "",
+        "entity_type": "Article"
+      },
+      {
+        "verification_summary": "Listed on iJS blog.",
+        "confidence": "High",
+        "date": "2017-06-12",
+        "index_notes": "",
+        "_family": "articles",
+        "id": "EA-ARTICLE-002",
+        "canonical_title": "5 simple Rules to implement Microservices Architecture",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [],
+        "topics": [],
+        "role": "Author",
+        "publisher_or_event": "iJS",
+        "primary_url": "https://javascript-conference.com/blog/five-rules-of-microservices",
+        "original_title": "",
+        "entity_type": "Article"
+      },
+      {
+        "verification_summary": "Listed on iJS blog.",
+        "confidence": "High",
+        "date": "",
+        "index_notes": "",
+        "_family": "articles",
+        "id": "EA-ARTICLE-001",
+        "canonical_title": "Get your CSS right - Pulling Back the Curtains of your Stylesheets",
+        "verification_status": "confirmed",
+        "date_precision": "unknown",
+        "language": "English",
+        "related_urls": [],
+        "topics": [],
+        "role": "Author",
+        "publisher_or_event": "iJS",
+        "primary_url": "https://javascript-conference.com/blog/its-not-dark-magic-stylesheets",
+        "original_title": "",
+        "entity_type": "Article"
+      }
+    ],
+    "projects": [
+      {
+        "verification_summary": "GitHub/NPM repository under ealush",
+        "confidence": "High",
+        "date": "2022-01-03",
+        "index_notes": "No material conflicts found across sources.",
+        "_family": "projects",
+        "id": "EA-PROJECT-010",
+        "canonical_title": "ealush/context",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://www.npmjs.com/package/context"
+        ],
+        "topics": [],
+        "role": "Creator/Owner",
+        "publisher_or_event": "GitHub",
+        "primary_url": "https://github.com/ealush/context",
+        "original_title": "ealush/context",
+        "entity_type": "Project or Package"
+      },
+      {
+        "verification_summary": "Name found on page",
+        "confidence": "High",
+        "date": "",
+        "index_notes": "Single source.",
+        "_family": "projects",
+        "id": "EA-PROJECT-009",
+        "canonical_title": "vent",
+        "verification_status": "confirmed",
+        "date_precision": "unknown",
+        "language": "English",
+        "related_urls": [
+          "https://www.npmjs.com/package/vent-dom"
+        ],
+        "topics": [],
+        "role": "Creator",
+        "publisher_or_event": "GitHub",
+        "primary_url": "https://github.com/ealush/vent",
+        "original_title": "",
+        "entity_type": "Project or Package"
+      },
+      {
+        "verification_summary": "Name found on page",
+        "confidence": "High",
+        "date": "",
+        "index_notes": "Single source.",
+        "_family": "projects",
+        "id": "EA-PROJECT-008",
+        "canonical_title": "inkbox",
+        "verification_status": "confirmed",
+        "date_precision": "unknown",
+        "language": "English",
+        "related_urls": [
+          "https://ealush.github.io/inkbox",
+          "https://www.npmjs.com/package/inkbox"
+        ],
+        "topics": [],
+        "role": "Creator",
+        "publisher_or_event": "GitHub",
+        "primary_url": "https://github.com/ealush/inkbox",
+        "original_title": "",
+        "entity_type": "Project or Package"
+      },
+      {
+        "verification_summary": "GitHub/NPM repository under ealush",
+        "confidence": "High",
+        "date": "",
+        "index_notes": "Single source.",
+        "_family": "projects",
+        "id": "EA-PROJECT-007",
+        "canonical_title": "ealush/wait",
+        "verification_status": "confirmed",
+        "date_precision": "unknown",
+        "language": "English",
+        "related_urls": [],
+        "topics": [],
+        "role": "Creator/Owner",
+        "publisher_or_event": "GitHub",
+        "primary_url": "https://github.com/ealush/wait",
+        "original_title": "ealush/wait",
+        "entity_type": "Project or Package"
+      },
+      {
+        "verification_summary": "GitHub/NPM repository under ealush",
+        "confidence": "High",
+        "date": "",
+        "index_notes": "Reconciled from multiple sources.",
+        "_family": "projects",
+        "id": "EA-PROJECT-006",
+        "canonical_title": "ealush/vest",
+        "verification_status": "confirmed",
+        "date_precision": "unknown",
+        "language": "English",
+        "related_urls": [
+          "https://www.npmjs.com/package/vest-monorepo",
+          "https://www.npmjs.com/package/vest",
+          "https://vestjs.dev"
+        ],
+        "topics": [],
+        "role": "Creator/Owner",
+        "publisher_or_event": "GitHub",
+        "primary_url": "https://github.com/ealush/vest",
+        "original_title": "ealush/vest",
+        "entity_type": "Project or Package"
+      },
+      {
+        "verification_summary": "GitHub/NPM repository under ealush",
+        "confidence": "High",
+        "date": "",
+        "index_notes": "Single source.",
+        "_family": "projects",
+        "id": "EA-PROJECT-005",
+        "canonical_title": "ealush/passable",
+        "verification_status": "confirmed",
+        "date_precision": "unknown",
+        "language": "English",
+        "related_urls": [
+          "https://www.npmjs.com/package/passable"
+        ],
+        "topics": [],
+        "role": "Creator/Owner",
+        "publisher_or_event": "GitHub",
+        "primary_url": "https://github.com/ealush/passable",
+        "original_title": "ealush/passable",
+        "entity_type": "Project or Package"
+      },
+      {
+        "verification_summary": "GitHub/NPM repository under ealush | Name found on page",
+        "confidence": "High",
+        "date": "",
+        "index_notes": "Reconciled conflicts in title. Selected most precise/common values.",
+        "_family": "projects",
+        "id": "EA-PROJECT-004",
+        "canonical_title": "ealush/flairup",
+        "verification_status": "confirmed",
+        "date_precision": "unknown",
+        "language": "English",
+        "related_urls": [
+          "https://www.npmjs.com/package/flairup",
+          "https://ealush.com/flairup"
+        ],
+        "topics": [],
+        "role": "Creator/Owner",
+        "publisher_or_event": "GitHub",
+        "primary_url": "https://github.com/ealush/flairup",
+        "original_title": "ealush/flairup",
+        "entity_type": "Project or Package"
+      },
+      {
+        "verification_summary": "GitHub/NPM repository under ealush | Name found on page The social-source audit added first-party, organizer, host, or attendee evidence for this resource.",
+        "confidence": "High",
+        "date": "",
+        "index_notes": "Reconciled conflicts in title. Selected most precise/common values.",
+        "_family": "projects",
+        "id": "EA-PROJECT-003",
+        "canonical_title": "ealush/emoji-picker-react",
+        "verification_status": "confirmed",
+        "date_precision": "unknown",
+        "language": "English",
+        "related_urls": [
+          "https://www.npmjs.com/package/emoji-picker-react",
+          "https://ealush.com/emoji-picker-react",
+          "https://x.com/evyataral/status/2058877885776003171"
+        ],
+        "topics": [],
+        "role": "Creator/Owner",
+        "publisher_or_event": "GitHub",
+        "primary_url": "https://github.com/ealush/emoji-picker-react",
+        "original_title": "ealush/emoji-picker-react",
+        "entity_type": "Project or Package"
+      },
+      {
+        "verification_summary": "Name found on page",
+        "confidence": "High",
+        "date": "",
+        "index_notes": "No material conflicts found across sources.",
+        "_family": "projects",
+        "id": "EA-PROJECT-002",
+        "canonical_title": "cinnamon-sugar",
+        "verification_status": "confirmed",
+        "date_precision": "unknown",
+        "language": "English",
+        "related_urls": [
+          "https://www.npmjs.com/package/cinnamon-sugar"
+        ],
+        "topics": [],
+        "role": "Creator",
+        "publisher_or_event": "GitHub",
+        "primary_url": "https://github.com/ealush/cinnamon-sugar",
+        "original_title": "",
+        "entity_type": "Project or Package"
+      },
+      {
+        "verification_summary": "Name found on page",
+        "confidence": "High",
+        "date": "",
+        "index_notes": "No material conflicts found across sources.",
+        "_family": "projects",
+        "id": "EA-PROJECT-001",
+        "canonical_title": "butter-toast",
+        "verification_status": "confirmed",
+        "date_precision": "unknown",
+        "language": "English",
+        "related_urls": [
+          "https://www.npmjs.com/package/butter-toast"
+        ],
+        "topics": [],
+        "role": "Creator",
+        "publisher_or_event": "GitHub",
+        "primary_url": "https://github.com/ealush/butter-toast",
+        "original_title": "",
+        "entity_type": "Project or Package"
+      }
+    ],
+    "profiles": [
+      {
+        "verification_summary": "Verified across multiple sources.",
+        "confidence": "High",
+        "date": "",
+        "index_notes": "Distinct profile.",
+        "_family": "profiles",
+        "id": "EA-PROFILE-008",
+        "canonical_title": "Evyatar Alush's Speaker Profile",
+        "verification_status": "confirmed",
+        "date_precision": "unknown",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "expertise",
+          "Frameworks & Libraries",
+          "JavaScript",
+          "Libraries",
+          "Live Coding",
+          "open source",
+          "React",
+          "React.js",
+          "Speaker profile",
+          "talks",
+          "TypeScript",
+          "Unit testing",
+          "Vest"
+        ],
+        "role": "Speaker",
+        "publisher_or_event": "Sessionize",
+        "primary_url": "https://sessionize.com/ealush",
+        "original_title": "Evyatar Alush",
+        "entity_type": "Profile"
+      },
+      {
+        "verification_summary": "Name not explicitly found on page, relying on source list",
+        "confidence": "Medium",
+        "date": "",
+        "index_notes": "Distinct profile.",
+        "_family": "profiles",
+        "id": "EA-PROFILE-006",
+        "canonical_title": "Evyatar Alush - Threads",
+        "verification_status": "reviewed",
+        "date_precision": "unknown",
+        "language": "English",
+        "related_urls": [],
+        "topics": [],
+        "role": "Owner",
+        "publisher_or_event": "Threads",
+        "primary_url": "https://threads.com/@evyataralush",
+        "original_title": "",
+        "entity_type": "Profile"
+      },
+      {
+        "verification_summary": "Verified across multiple sources.",
+        "confidence": "High",
+        "date": "",
+        "index_notes": "Distinct profile.",
+        "_family": "profiles",
+        "id": "EA-PROFILE-005",
+        "canonical_title": "Evyatar Alush - Personal Website",
+        "verification_status": "confirmed",
+        "date_precision": "unknown",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "Personal website",
+          "talks"
+        ],
+        "role": "Owner",
+        "publisher_or_event": "ealush.com",
+        "primary_url": "https://ealush.com/",
+        "original_title": "Evyatar Alush",
+        "entity_type": "Profile"
+      },
+      {
+        "verification_summary": "Canonical LinkedIn profile verified through Evyatar's official website and public speaker, podcast, and organizer posts that tag the same identity.",
+        "confidence": "High",
+        "date": "",
+        "index_notes": "Use as an identity and professional-history hub. Individual LinkedIn posts are attached to the appearance they document rather than counted as separate appearances.",
+        "_family": "profiles",
+        "id": "EA-PROFILE-004",
+        "canonical_title": "Evyatar Alush - LinkedIn",
+        "verification_status": "confirmed",
+        "date_precision": "unknown",
+        "language": "English",
+        "related_urls": [],
+        "topics": [],
+        "role": "Owner",
+        "publisher_or_event": "LinkedIn",
+        "primary_url": "https://www.linkedin.com/in/evyatar-alush-5b760866/",
+        "original_title": "",
+        "entity_type": "Profile"
+      },
+      {
+        "verification_summary": "Name found on page",
+        "confidence": "High",
+        "date": "",
+        "index_notes": "Distinct profile.",
+        "_family": "profiles",
+        "id": "EA-PROFILE-003",
+        "canonical_title": "Evyatar Alush - GitHub",
+        "verification_status": "confirmed",
+        "date_precision": "unknown",
+        "language": "English",
+        "related_urls": [],
+        "topics": [],
+        "role": "Owner",
+        "publisher_or_event": "GitHub",
+        "primary_url": "https://github.com/ealush",
+        "original_title": "",
+        "entity_type": "Profile"
+      },
+      {
+        "verification_summary": "Canonical public X profile verified as @evyataral through the profile page, authored timeline, public mentions, and cross-links from first-party sources.",
+        "confidence": "High",
+        "date": "",
+        "index_notes": "Current handle: @evyataral. Historical status links may still expose the former AlushEvyatar path, but all published archive URLs use the current handle.",
+        "_family": "profiles",
+        "id": "EA-PROFILE-007",
+        "canonical_title": "Evyatar Alush (@evyataral) - X/Twitter",
+        "verification_status": "confirmed",
+        "date_precision": "unknown",
+        "language": "English",
+        "related_urls": [],
+        "topics": [],
+        "role": "Owner",
+        "publisher_or_event": "Twitter/X",
+        "primary_url": "https://x.com/evyataral",
+        "original_title": "",
+        "entity_type": "Profile"
+      },
+      {
+        "verification_summary": "Found on source page | Official GitNation speaker profile is titled “Evyatar Alush,” gives his bio, and lists the same personal site, X account, and GitHub account associated with him. | Name found on page | GitNation speaker profile listing talks and articles",
+        "confidence": "High",
+        "date": "",
+        "index_notes": "Distinct profile.",
+        "_family": "profiles",
+        "id": "EA-PROFILE-001",
+        "canonical_title": "Evyatar Alush",
+        "verification_status": "confirmed",
+        "date_precision": "unknown",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "articles",
+          "developer tools",
+          "JavaScript",
+          "open source",
+          "React",
+          "Speaker profile",
+          "talks",
+          "TypeScript",
+          "Vest"
+        ],
+        "role": "Subject",
+        "publisher_or_event": "GitNation",
+        "primary_url": "https://gitnation.com/person/evyatar_alush",
+        "original_title": "Evyatar Alush",
+        "entity_type": "Profile"
+      },
+      {
+        "verification_summary": "Speaker profile for International JavaScript Conference",
+        "confidence": "High",
+        "date": "",
+        "index_notes": "Distinct profile.",
+        "_family": "profiles",
+        "id": "EA-PROFILE-002",
+        "canonical_title": "Evyatar Alush",
+        "verification_status": "confirmed",
+        "date_precision": "unknown",
+        "language": "English",
+        "related_urls": [],
+        "topics": [
+          "Speaker profile"
+        ],
+        "role": "Front End Engineer",
+        "publisher_or_event": "International JavaScript Conference",
+        "primary_url": "https://javascript-conference.com/speaker/evyatar-alush/",
+        "original_title": "Evyatar Alush",
+        "entity_type": "Profile"
+      }
+    ],
+    "mentions": [
+      {
+        "verification_summary": "Reconciled from multiple sources.",
+        "confidence": "High",
+        "date": "2026-01-31",
+        "index_notes": "Clustered as a distinct secondary mention.",
+        "_family": "secondary_mentions",
+        "id": "EA-MENTION-002",
+        "canonical_title": "Episode 149 - Season 5 ends but the journey is just beginning",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "Hebrew",
+        "related_urls": [],
+        "topics": [
+          "open source"
+        ],
+        "role": "Mentioned",
+        "publisher_or_event": "מפתחים מחוץ לקופסה",
+        "primary_url": "https://podcasts.apple.com/us/podcast/%D7%A4%D7%A8%D7%A7-149-%D7%A2%D7%95%D7%A0%D7%94-5-%D7%A0%D7%92%D7%9E%D7%A8%D7%AA-%D7%90%D7%91%D7%9C-%D7%94%D7%9E%D7%A1%D7%A2-%D7%A8%D7%A7-%D7%9E%D7%AA%D7%97%D7%99%D7%9C/id1595260676?i=1000747483747",
+        "original_title": "פרק 149 - עונה 5 נגמרת אבל המסע רק מתחיל",
+        "entity_type": "Secondary Mention"
+      },
+      {
+        "verification_summary": "Mentioned in a blog post about React Alicante 2025 and YouTube. | Conference summary page",
+        "confidence": "High",
+        "date": "2025-10-13",
+        "index_notes": "Clustered as a distinct secondary mention.",
+        "_family": "secondary_mentions",
+        "id": "EA-MENTION-001",
+        "canonical_title": "My CSS is Faster Than Your React! Writing CSS only React Search!",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://www.youtube.com/watch?v=ZPBzhztDJS8"
+        ],
+        "topics": [
+          "CSS",
+          "React",
+          "Search"
+        ],
+        "role": "Mention",
+        "publisher_or_event": "React Alicante",
+        "primary_url": "https://kalabro.tech/react-alicante-2025",
+        "original_title": "My CSS is Faster Than Your React! Writing CSS only React Search!",
+        "entity_type": "Secondary Mention"
+      }
+    ]
+  },
+  "unconfirmed_research_leads": [
     {
-      "title": "Conferences",
-      "items": [
-        {
-          "title": "🇮🇱 React Next TLV - Israel | December 2025"
-        },
-        {
-          "title": "🇪🇸 React Alicante - Spain | October 2025"
-        },
-        {
-          "title": "🇬🇷 CityJS Athens - Greece | May 2025"
-        },
-        {
-          "title": "🇧🇪 DevFest Mons - Belgium | November 2024"
-        },
-        {
-          "title": "🇬🇧 React Advanced London - UK | October 2024"
-        },
-        {
-          "title": "🇪🇸 React Alicante - Spain | September 2024"
-        },
-        {
-          "title": "🇩🇪 code.talks - Germany | September 2024"
-        },
-        { "title": "🇮🇱 Node TLV - Israel | June 2024" },
-        { "title": "🇮🇱 ReactNext TLV - Israel | June 2024" },
-        {
-          "title": "🇸🇬 iJS - Singapore | December 2023"
-        },
-        {
-          "title": "🇩🇪 ReactDay Berlin - Germany | December 2023"
-        },
-        {
-          "title": "🇧🇪 FullStack Europe - Belgium | October 2023"
-        },
-        {
-          "title": "🇩🇪 code.talks - Germany | September 2023"
-        },
-        { "title": "🇮🇱 ReactNext TLV - Israel | June 2023" },
-        {
-          "title": "🇧🇪 DevDay Mons - Belgium | March 2023"
-        },
-        {
-          "title": "🌐 TestJS Summit | October 2022"
-        },
-        {
-          "title": "🇩🇪 iJS Munich - Germany | October 2022"
-        },
-        {
-          "title": "🇩🇪 code.talks - Germany | September 2022"
-        },
-        {
-          "title": "🇵🇱 ConfrontJS - Warsaw | March 2022"
-        },
-        {
-          "title": "🌐 JS Congress | November 2021"
-        },
-        {
-          "title": "🌐 Svelte Summit | Fall 2021"
-        },
-        {
-          "title": "🌐 Vue.JS London | October 2021"
-        },
-        {
-          "title": "🌐 Conf 42 Javascript | September 2021"
-        }
-      ]
+      "verification_summary": "Retained as a research lead only. Do not publish as a confirmed appearance without a direct program, recording, speaker page, organizer announcement, or first-party post.",
+      "confidence": "Medium",
+      "date": "2026",
+      "index_notes": "A secondary LinkedIn mention names the talk, but Evyatar’s GitNation profile and the accessible JSNation program do not list it.",
+      "_family": "live_presentations",
+      "id": "EA-TALK-027",
+      "canonical_title": "Vest 6 for the Stranded Time Traveler",
+      "verification_status": "unconfirmed",
+      "date_precision": "year",
+      "language": "English",
+      "related_urls": [
+        "https://gitnation.com/events/jsnation-2026"
+      ],
+      "topics": [
+        "JavaScript",
+        "validation",
+        "Vest"
+      ],
+      "role": "Speaker",
+      "publisher_or_event": "JSNation 2026",
+      "primary_url": "https://linkedin.com/posts/sylwia-laskowska-5a8467131_jsnation-activity-7452279325975977984-nS6g",
+      "original_title": "Vest 6 for the Stranded Time Traveler",
+      "entity_type": "Conference Talk"
     },
     {
-      "title": "Articles",
-      "items": [
-        {
-          "title": "Let's Build React Context in Vanilla JS.",
-          "url": "https://www.smashingmagazine.com/2022/08/react-context-propagation-javascript",
-          "extra": "Smashing Magazine"
-        },
-        {
-          "title": "Dead Simple React Validations with Vest.",
-          "url": "https://dev.to/ealush/dead-simple-form-validation-with-vest-5gf8"
-        },
-        {
-          "title": "Fight Validations Spaghetti with Vest.",
-          "url": "https://dev.to/ealush/fight-validations-spaghetti-with-vest-3i8j"
-        },
-        {
-          "title": "Creating APIs for the human developer",
-          "url": "https://medium.com/fiverr-engineering/creating-apis-for-the-human-developer-c0f51a6d9366"
-        },
-        {
-          "title": "Writing a JS Proxy based assertion function",
-          "url": "https://medium.com/fiverr-engineering/writing-a-js-proxy-based-assertion-function-5a7359df9f9b"
-        },
-        {
-          "title": "Introducing Passable",
-          "url": "https://medium.com/fiverr-engineering/introducing-passable-45250548afd1"
-        }
-      ]
+      "verification_summary": "React Miami 2026 is a real event, but the available public sources do not authoritatively connect this talk or Evyatar to the program.",
+      "confidence": "Low",
+      "date": "2026",
+      "index_notes": "The cited LinkedIn URL is unrelated. No direct React Miami schedule, speaker page, recording, organizer announcement, or first-party post was recovered.",
+      "_family": "live_presentations",
+      "id": "EA-TALK-018",
+      "canonical_title": "Vest 6 for the Stranded Time Traveler",
+      "verification_status": "unconfirmed",
+      "date_precision": "year",
+      "language": "English",
+      "related_urls": [
+        "https://www.reactmiami.com/"
+      ],
+      "topics": [],
+      "role": "Speaker",
+      "publisher_or_event": "React Miami",
+      "primary_url": "https://linkedin.com/posts/ericlaan_follow-julien-lengrand-lambert-and-activity-7449726633353183232-DiN0",
+      "original_title": "",
+      "entity_type": "Conference Talk"
     },
     {
-      "title": "Videos",
-      "items": [
-        {
-          "title": "Harness the power of JavaScript Proxies",
-          "url": "https://www.youtube.com/watch?v=s9nFLWzt4c0",
-          "extra": "NodeTLV 2024"
-        },
-        {
-          "title": "CSS Only* Search: Improve React Filtering Performance with CSS!",
-          "url": "https://portal.gitnation.org/contents/css-only-search-improve-react-filtering-performance-with-css",
-          "extra": "React Day Berlin 2023"
-        },
-        {
-          "title": "Let's Build React Context in Vanilla JS",
-          "url": "https://www.youtube.com/watch?v=tt1ZuyoPcFc",
-          "extra": "ReactNext '23"
-        },
-        {
-          "title": "Building an Assertion Library with Javascript Proxy",
-          "url": "https://www.youtube.com/watch?v=9gthzbVaHYo&t",
-          "extra": "Fiverr Talks 2022"
-        },
-        {
-          "title": "Up Your Form Validation Game with Vest",
-          "url": "https://www.youtube.com/watch?v=X2PuiawaGV4",
-          "extra": "Svelte Summit | Fall 2021"
-        },
-        {
-          "title": "Vue Form Validations with Vest",
-          "url": "https://portal.gitnation.org/contents/vue-form-validations-with-vest",
-          "extra": "Vue.js London"
-        },
-        {
-          "title": "What you need to know about contributing to open source",
-          "url": "https://www.youtube.com/watch?v=2D0LmCtVTSk",
-          "extra": "(Hebrew)"
-        },
-        {
-          "title": "It can't be that easy! Form validations with Vest",
-          "url": "https://www.youtube.com/watch?v=mL9ocOBg2y4",
-          "extra": "(Conf42)"
-        },
-        {
-          "title": "Vest Demo",
-          "url": "https://twitter.com/AlushEvyatar/status/1281297006070284289"
-        },
-        {
-          "title": "Rethinking form validations",
-          "url": "https://www.youtube.com/watch?v=_R5WfSXBruk",
-          "extra": "(Hebrew)"
-        }
-      ]
-    },
-    {
-      "title": "Interviews",
-      "items": [
-        {
-          "title": "Speaking Up: The Developer’s Guide to Conference Talks & Career Growth",
-          "url": "https://www.youtube.com/watch?v=AMOz9Kmsmys",
-          "extra": "Javascript Jabber"
-        },
-        {
-          "title": "Better Form Validation with Vest",
-          "url": "https://www.compressed.fm/episode/161",
-          "extra": "Compressed.FM"
-        },
-        {
-          "title": "Who’s Afraid Of Open Source?",
-          "url": "https://webrush.io/episodes/episode-261-whos-afraid-of-open-source",
-          "extra": "Web Rush Podcast"
-        },
-        {
-          "title": "What if your JavaScript Validations Looked like Tests?",
-          "url": "https://topenddevs.com/podcasts/javascript-jabber/episodes/what-if-your-javascript-validations-looked-like-tests-jsj-597",
-          "extra": "JavaScript Jabber"
-        },
-        {
-          "title": "Deep Dive into JavaScript Proxies",
-          "url": "https://webrush.io/episodes/episode-216-javascript-proxies-with-evyatar-alush",
-          "extra": "Web Rush Podcast"
-        },
-        {
-          "title": "Wearing a Vest is in Style",
-          "url": "https://webrush.io/episodes/episode-188-wearing-a-vest-is-in-style-with-evyatar-alush",
-          "extra": "Web Rush Podcast"
-        },
-        {
-          "title": "Every Question Answered",
-          "url": "https://fedcast.co.il/%D7%9C%D7%9B%D7%9C_%D7%A9%D7%90%D7%9C%D7%94_%D7%AA%D7%A9%D7%95%D7%91%D7%94/1505/%D7%9C%D7%9B%D7%9C-%D7%A9%D7%90%D7%9C%D7%94-%D7%AA%D7%A9%D7%95%D7%91%D7%94-%D7%A2%D7%9D-%D7%90%D7%91%D7%99%D7%AA%D7%A8-%D7%90%D7%9C%D7%95%D7%A9/",
-          "extra": "FED Cast IL (Hebrew)"
-        },
-        {
-          "title": "API Design IRL",
-          "url": "https://open.spotify.com/episode/2mrcevFlUKAxcUdQ4pyTYj",
-          "extra": "Open Source Podcast (Hebrew)"
-        },
-        {
-          "title": "Playing it close to the Vest",
-          "url": "https://changelog.com/jsparty/213",
-          "extra": "JS Party"
-        },
-        {
-          "title": "Vest with Evyatar Alush",
-          "url": "https://podrocket.logrocket.com/vest",
-          "extra": "PodRocket by LogRocket"
-        },
-        {
-          "title": "DX is UX",
-          "url": "https://anchor.fm/frontend-greatness/episodes/DX-is-UX-With-Evyatar-e12tco9",
-          "extra": "Frontend Greatness Podcast"
-        },
-        {
-          "title": "Form Validations and Open Source",
-          "url": "https://reactroundup.com/172",
-          "extra": "React Roundup Podcast"
-        }
-      ]
+      "publisher_or_event": "CityJS Singapore 2026",
+      "primary_url": "",
+      "related_urls": [],
+      "topics": []
     }
-  ]
+  ],
+  "caption": "Software Engineer. Open Source Maintainer. Human Developer",
+  "bio": "I write code at Meta and maintain open source tools in my free time. I created Vest because form validation should not make you hate your life. I also built emoji-picker-react, which taught me more about open source than I ever expected to learn. Sometimes I speak at conferences about API design, performance, and the strange rules we follow without asking why."
 }

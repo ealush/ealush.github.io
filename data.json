@@ -1807,23 +1807,73 @@
       {
         "verification_summary": "GitHub/NPM repository under ealush",
         "confidence": "High",
-        "date": "2022-01-03",
-        "index_notes": "No material conflicts found across sources.",
+        "date": "",
+        "index_notes": "Reconciled from multiple sources.",
         "_family": "projects",
-        "id": "EA-PROJECT-010",
-        "canonical_title": "ealush/context",
+        "id": "EA-PROJECT-006",
+        "canonical_title": "ealush/vest",
         "verification_status": "confirmed",
-        "date_precision": "day",
+        "date_precision": "unknown",
         "language": "English",
         "related_urls": [
-          "https://www.npmjs.com/package/context"
+          "https://www.npmjs.com/package/vest-monorepo",
+          "https://www.npmjs.com/package/vest",
+          "https://vestjs.dev"
         ],
         "topics": [],
         "role": "Creator/Owner",
         "publisher_or_event": "GitHub",
-        "primary_url": "https://github.com/ealush/context",
-        "original_title": "ealush/context",
-        "entity_type": "Project or Package"
+        "primary_url": "https://github.com/ealush/vest",
+        "original_title": "ealush/vest",
+        "entity_type": "Project or Package",
+        "updatedAt": 1784073600000
+      },
+      {
+        "verification_summary": "GitHub/NPM repository under ealush | Name found on page The social-source audit added first-party, organizer, host, or attendee evidence for this resource.",
+        "confidence": "High",
+        "date": "",
+        "index_notes": "Reconciled conflicts in title. Selected most precise/common values.",
+        "_family": "projects",
+        "id": "EA-PROJECT-003",
+        "canonical_title": "ealush/emoji-picker-react",
+        "verification_status": "confirmed",
+        "date_precision": "unknown",
+        "language": "English",
+        "related_urls": [
+          "https://www.npmjs.com/package/emoji-picker-react",
+          "https://ealush.com/emoji-picker-react",
+          "https://x.com/evyataral/status/2058877885776003171"
+        ],
+        "topics": [],
+        "role": "Creator/Owner",
+        "publisher_or_event": "GitHub",
+        "primary_url": "https://github.com/ealush/emoji-picker-react",
+        "original_title": "ealush/emoji-picker-react",
+        "entity_type": "Project or Package",
+        "updatedAt": 1781049600000
+      },
+      {
+        "verification_summary": "GitHub/NPM repository under ealush | Name found on page",
+        "confidence": "High",
+        "date": "",
+        "index_notes": "Reconciled conflicts in title. Selected most precise/common values.",
+        "_family": "projects",
+        "id": "EA-PROJECT-004",
+        "canonical_title": "ealush/flairup",
+        "verification_status": "confirmed",
+        "date_precision": "unknown",
+        "language": "English",
+        "related_urls": [
+          "https://www.npmjs.com/package/flairup",
+          "https://ealush.com/flairup"
+        ],
+        "topics": [],
+        "role": "Creator/Owner",
+        "publisher_or_event": "GitHub",
+        "primary_url": "https://github.com/ealush/flairup",
+        "original_title": "ealush/flairup",
+        "entity_type": "Project or Package",
+        "updatedAt": 1763596800000
       },
       {
         "verification_summary": "Name found on page",
@@ -1844,7 +1894,30 @@
         "publisher_or_event": "GitHub",
         "primary_url": "https://github.com/ealush/vent",
         "original_title": "",
-        "entity_type": "Project or Package"
+        "entity_type": "Project or Package",
+        "updatedAt": 1747267200000
+      },
+      {
+        "verification_summary": "Name found on page",
+        "confidence": "High",
+        "date": "",
+        "index_notes": "No material conflicts found across sources.",
+        "_family": "projects",
+        "id": "EA-PROJECT-001",
+        "canonical_title": "butter-toast",
+        "verification_status": "confirmed",
+        "date_precision": "unknown",
+        "language": "English",
+        "related_urls": [
+          "https://www.npmjs.com/package/butter-toast"
+        ],
+        "topics": [],
+        "role": "Creator",
+        "publisher_or_event": "GitHub",
+        "primary_url": "https://github.com/ealush/butter-toast",
+        "original_title": "",
+        "entity_type": "Project or Package",
+        "updatedAt": 1727740800000
       },
       {
         "verification_summary": "Name found on page",
@@ -1866,7 +1939,30 @@
         "publisher_or_event": "GitHub",
         "primary_url": "https://github.com/ealush/inkbox",
         "original_title": "",
-        "entity_type": "Project or Package"
+        "entity_type": "Project or Package",
+        "updatedAt": 1701388800000
+      },
+      {
+        "verification_summary": "GitHub/NPM repository under ealush",
+        "confidence": "High",
+        "date": "2022-01-03",
+        "index_notes": "No material conflicts found across sources.",
+        "_family": "projects",
+        "id": "EA-PROJECT-010",
+        "canonical_title": "ealush/context",
+        "verification_status": "confirmed",
+        "date_precision": "day",
+        "language": "English",
+        "related_urls": [
+          "https://www.npmjs.com/package/context"
+        ],
+        "topics": [],
+        "role": "Creator/Owner",
+        "publisher_or_event": "GitHub",
+        "primary_url": "https://github.com/ealush/context",
+        "original_title": "ealush/context",
+        "entity_type": "Project or Package",
+        "updatedAt": 1640995200000
       },
       {
         "verification_summary": "GitHub/NPM repository under ealush",
@@ -1891,29 +1987,6 @@
         "verification_summary": "GitHub/NPM repository under ealush",
         "confidence": "High",
         "date": "",
-        "index_notes": "Reconciled from multiple sources.",
-        "_family": "projects",
-        "id": "EA-PROJECT-006",
-        "canonical_title": "ealush/vest",
-        "verification_status": "confirmed",
-        "date_precision": "unknown",
-        "language": "English",
-        "related_urls": [
-          "https://www.npmjs.com/package/vest-monorepo",
-          "https://www.npmjs.com/package/vest",
-          "https://vestjs.dev"
-        ],
-        "topics": [],
-        "role": "Creator/Owner",
-        "publisher_or_event": "GitHub",
-        "primary_url": "https://github.com/ealush/vest",
-        "original_title": "ealush/vest",
-        "entity_type": "Project or Package"
-      },
-      {
-        "verification_summary": "GitHub/NPM repository under ealush",
-        "confidence": "High",
-        "date": "",
         "index_notes": "Single source.",
         "_family": "projects",
         "id": "EA-PROJECT-005",
@@ -1929,51 +2002,6 @@
         "publisher_or_event": "GitHub",
         "primary_url": "https://github.com/ealush/passable",
         "original_title": "ealush/passable",
-        "entity_type": "Project or Package"
-      },
-      {
-        "verification_summary": "GitHub/NPM repository under ealush | Name found on page",
-        "confidence": "High",
-        "date": "",
-        "index_notes": "Reconciled conflicts in title. Selected most precise/common values.",
-        "_family": "projects",
-        "id": "EA-PROJECT-004",
-        "canonical_title": "ealush/flairup",
-        "verification_status": "confirmed",
-        "date_precision": "unknown",
-        "language": "English",
-        "related_urls": [
-          "https://www.npmjs.com/package/flairup",
-          "https://ealush.com/flairup"
-        ],
-        "topics": [],
-        "role": "Creator/Owner",
-        "publisher_or_event": "GitHub",
-        "primary_url": "https://github.com/ealush/flairup",
-        "original_title": "ealush/flairup",
-        "entity_type": "Project or Package"
-      },
-      {
-        "verification_summary": "GitHub/NPM repository under ealush | Name found on page The social-source audit added first-party, organizer, host, or attendee evidence for this resource.",
-        "confidence": "High",
-        "date": "",
-        "index_notes": "Reconciled conflicts in title. Selected most precise/common values.",
-        "_family": "projects",
-        "id": "EA-PROJECT-003",
-        "canonical_title": "ealush/emoji-picker-react",
-        "verification_status": "confirmed",
-        "date_precision": "unknown",
-        "language": "English",
-        "related_urls": [
-          "https://www.npmjs.com/package/emoji-picker-react",
-          "https://ealush.com/emoji-picker-react",
-          "https://x.com/evyataral/status/2058877885776003171"
-        ],
-        "topics": [],
-        "role": "Creator/Owner",
-        "publisher_or_event": "GitHub",
-        "primary_url": "https://github.com/ealush/emoji-picker-react",
-        "original_title": "ealush/emoji-picker-react",
         "entity_type": "Project or Package"
       },
       {
@@ -1994,27 +2022,6 @@
         "role": "Creator",
         "publisher_or_event": "GitHub",
         "primary_url": "https://github.com/ealush/cinnamon-sugar",
-        "original_title": "",
-        "entity_type": "Project or Package"
-      },
-      {
-        "verification_summary": "Name found on page",
-        "confidence": "High",
-        "date": "",
-        "index_notes": "No material conflicts found across sources.",
-        "_family": "projects",
-        "id": "EA-PROJECT-001",
-        "canonical_title": "butter-toast",
-        "verification_status": "confirmed",
-        "date_precision": "unknown",
-        "language": "English",
-        "related_urls": [
-          "https://www.npmjs.com/package/butter-toast"
-        ],
-        "topics": [],
-        "role": "Creator",
-        "publisher_or_event": "GitHub",
-        "primary_url": "https://github.com/ealush/butter-toast",
         "original_title": "",
         "entity_type": "Project or Package"
       }

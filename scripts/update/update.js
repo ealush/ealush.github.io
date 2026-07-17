@@ -4,9 +4,11 @@ const { graphql } = require("@octokit/graphql");
 const template = require("./template");
 const data = require("../../data.json");
 
+const token = process.env.GIT_TOKEN || process.env.GITHUB_TOKEN;
+
 const authQuery = graphql.defaults({
   headers: {
-    authorization: `token ${process.env.GIT_TOKEN}`,
+    authorization: `token ${token}`,
   },
 });
 
@@ -33,8 +35,8 @@ const repoQuery = `{
 
 const fetchRepos = async () => {
   console.log("Fetching repos from GitHub API...");
-  if (!process.env.GIT_TOKEN) {
-    console.log("GIT_TOKEN not set, bypassing live stars query.");
+  if (!token) {
+    console.log("Neither GIT_TOKEN nor GITHUB_TOKEN is set, bypassing live stars query.");
     return null;
   }
   try {

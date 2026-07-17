@@ -1,145 +1,447 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>ealush</title>
+  <title>Evyatar Alush - Software Engineer, Open Source Maintainer</title>
+  <meta name="description" content="Personal website of Evyatar Alush, creator of Vest validation framework and emoji-picker-react. Software Engineer at Meta.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="./favicon.ico" />
   <link rel="stylesheet" type="text/css" media="screen" href="./style.css">
-  <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class="grid">
-    <section id="main" class="main">
-      <div class="face"></div>
-      <h1>HI<span class="paint">,</span> I AM<br>EVYATAR<span class="paint">.</span></h1>
-      <p>Software Engineer at Meta | Tel Aviv, Israel.</p>
-      <span>code<span class="paint">@</span>ealush.com</span>
-      <div class="social-links">
-        <a href="https://x.com/evyataral" target="_blank" rel="noopener noreferrer">
-          <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-          @evyataral
-        </a> |
-        <a href="https://www.linkedin.com/in/evyatar-alush-5b760866/" target="_blank" rel="noopener noreferrer">
-          <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4s1.39.63 1.39 1.4v4.93h2.8zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69.75 1.69 1.69 0 0 0 0 1.88 1.68 1.68 0 0 0 1.69 1.68m-1.39 9.94v-8.37H8.27v8.37H5.49z"/></svg>
-          LinkedIn
-        </a>
+  <div class="app-container">
+    <header class="hero-section">
+      <div class="face-container">
+        <div class="face-glow"></div>
+        <img class="face-img" src="./evyatar_profile.png" alt="Evyatar Alush" width="144" height="144" fetchpriority="high">
       </div>
-    </section>
-    <section class="links">
-      <div>
+      <h1>HI<span class="paint">,</span> I AM<br>EVYATAR<span class="paint">.</span></h1>
+      <p class="tagline">Software Engineer. Open Source Maintainer. Human Developer.</p>
+      
+      <p class="bio">
+        I write code at Meta and maintain open source tools in my free time. 
+        I created <a href="https://github.com/ealush/vest" target="_blank" rel="noopener noreferrer">Vest</a> because form validation should not make you hate your life. 
+        I also built <a href="https://github.com/ealush/emoji-picker-react" target="_blank" rel="noopener noreferrer">emoji-picker-react</a>, which taught me more about open source than I ever expected to learn. 
+        Sometimes I speak at conferences about API design, performance, and the strange rules we follow without asking why.
+      </p>
+
+      <div class="contact-links">
+        <a href="mailto:code@ealush.com" class="email-link">code<span class="paint">@</span>ealush.com</a>
+        
+        <div class="social-links">
+          <a href="https://x.com/evyataral" target="_blank" rel="noopener noreferrer" aria-label="X (formerly Twitter)">
+            <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            <span>@evyataral</span>
+          </a>
+          <span class="divider">|</span>
+          <a href="https://www.linkedin.com/in/evyatar-alush-5b760866/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4s1.39.63 1.39 1.4v4.93h2.8zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69.75 1.69 1.69 0 0 0 0 1.88 1.68 1.68 0 0 0 1.69 1.68m-1.39 9.94v-8.37H8.27v8.37H5.49z"/></svg>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="links-section">
+      <section class="links-group">
             <h2>Code</h2>
-            <ul>
-            <li>
-                  <a href="https://github.com/ealush/vest" target="_blank" rel="noopener noreferrer">vest(🌟 2664)</a> <small>(<a href="https://vestjs.dev" target="_blank" rel="noopener noreferrer">website</a> | <a href="https://www.npmjs.com/package/vest-monorepo" target="_blank" rel="noopener noreferrer">npm</a>)</small> 
-              </li><li>
-                  <a href="https://github.com/ealush/emoji-picker-react" target="_blank" rel="noopener noreferrer">emoji-picker-react(🌟 1441)</a> <small>(<a href="https://ealush.com/emoji-picker-react" target="_blank" rel="noopener noreferrer">website</a> | <a href="https://www.npmjs.com/package/emoji-picker-react" target="_blank" rel="noopener noreferrer">npm</a>)</small> 
-              </li><li>
-                  <a href="https://github.com/ealush/contacts_app_ws" target="_blank" rel="noopener noreferrer">contacts_app_ws(🌟 1)</a> <small>(<a href="https://www.npmjs.com/package/contacts" target="_blank" rel="noopener noreferrer">npm</a>)</small> 
-              </li><li>
-                  <a href="https://github.com/ealush/flairup" target="_blank" rel="noopener noreferrer">flairup(🌟 19)</a> <small>(<a href="https://ealush.com/flairup" target="_blank" rel="noopener noreferrer">website</a> | <a href="https://www.npmjs.com/package/flairup" target="_blank" rel="noopener noreferrer">npm</a>)</small> 
-              </li><li>
-                  <a href="https://github.com/ealush/vent" target="_blank" rel="noopener noreferrer">vent(🌟 32)</a> <small>(<a href="https://github.com/ealush/vent#readme" target="_blank" rel="noopener noreferrer">website</a> | <a href="https://www.npmjs.com/package/vent-dom" target="_blank" rel="noopener noreferrer">npm</a>)</small> 
-              </li><li>
-                  <a href="https://github.com/ealush/wait" target="_blank" rel="noopener noreferrer">wait(🌟 16)</a> <small>(<a href="https://www.npmjs.com/package/wait" target="_blank" rel="noopener noreferrer">npm</a>)</small> 
-              </li><li>
-                  <a href="https://github.com/ealush/butter-toast" target="_blank" rel="noopener noreferrer">butter-toast(🌟 115)</a> <small>(<a href="https://github.com/ealush/butter-toast#readme" target="_blank" rel="noopener noreferrer">website</a> | <a href="https://www.npmjs.com/package/butter-toast" target="_blank" rel="noopener noreferrer">npm</a>)</small> 
-              </li><li>
-                  <a href="https://github.com/ealush/n4s" target="_blank" rel="noopener noreferrer">n4s(🌟 35)</a>  
-              </li><li>
-                  <a href="https://github.com/ealush/linear-debounce" target="_blank" rel="noopener noreferrer">linear-debounce(🌟 3)</a> <small>(<a href="https://github.com/ealush/linear-debounce#readme" target="_blank" rel="noopener noreferrer">website</a> | <a href="https://www.npmjs.com/package/linear-debounce" target="_blank" rel="noopener noreferrer">npm</a>)</small> 
-              </li><li>
-                  <a href="https://github.com/ealush/emoji-picker-textfields-component" target="_blank" rel="noopener noreferrer">emoji-picker-textfields-component(🌟 24)</a> <small>(<a href="https://github.com/ealush/emoji-picker-textfields-component#readme" target="_blank" rel="noopener noreferrer">website</a> | <a href="https://www.npmjs.com/package/emoji-picker-textfield" target="_blank" rel="noopener noreferrer">npm</a>)</small> 
-              </li><li>
-                  <a href="https://github.com/ealush/context" target="_blank" rel="noopener noreferrer">context(🌟 3)</a> <small>(<a href="https://www.npmjs.com/package/context" target="_blank" rel="noopener noreferrer">npm</a>)</small> 
-              </li><li>
-                  <a href="https://github.com/ealush/vast" target="_blank" rel="noopener noreferrer">vast(🌟 2)</a>  
-              </li><li>
-                  <a href="https://github.com/ealush/remix-validation" target="_blank" rel="noopener noreferrer">remix-validation(🌟 1)</a> <small>(<a href="https://www.npmjs.com/package/remix-app-template" target="_blank" rel="noopener noreferrer">npm</a>)</small> 
-              </li><li>
-                  <a href="https://github.com/ealush/supress" target="_blank" rel="noopener noreferrer">supress(🌟 1)</a>  
-              </li><li>
-                  <a href="https://github.com/ealush/tag-ls" target="_blank" rel="noopener noreferrer">tag-ls(🌟 1)</a> <small>(<a href="https://www.npmjs.com/package/tag-ls" target="_blank" rel="noopener noreferrer">npm</a>)</small> 
-              </li><li>
-                  <a href="https://github.com/ealush/inkbox" target="_blank" rel="noopener noreferrer">inkbox(🌟 7)</a> <small>(<a href="https://ealush.github.io/inkbox" target="_blank" rel="noopener noreferrer">website</a> | <a href="https://www.npmjs.com/package/inkbox" target="_blank" rel="noopener noreferrer">npm</a>)</small> 
-              </li><li>
-                  <a href="https://github.com/ealush/passable-react" target="_blank" rel="noopener noreferrer">passable-react(🌟 4)</a> <small>(<a href="https://www.npmjs.com/package/passable-react" target="_blank" rel="noopener noreferrer">npm</a>)</small> 
-              </li><li>
-                  <a href="https://github.com/ealush/cinnamon-sugar" target="_blank" rel="noopener noreferrer">cinnamon-sugar(🌟 5)</a> <small>(<a href="https://github.com/ealush/cinnamon-sugar#readme" target="_blank" rel="noopener noreferrer">website</a> | <a href="https://www.npmjs.com/package/cinnamon-sugar" target="_blank" rel="noopener noreferrer">npm</a>)</small> 
-              </li><li>
-                  <a href="https://github.com/ealush/react-format-props" target="_blank" rel="noopener noreferrer">react-format-props(🌟 3)</a> <small>(<a href="https://www.npmjs.com/package/react-format-props" target="_blank" rel="noopener noreferrer">npm</a>)</small> 
-              </li></ul></div><div>
+            <ul class="links-list">
+            <li class="link-item">
+                    <div class="link-content">
+                      <a href="https://github.com/ealush/vest" class="item-title" target="_blank" rel="noopener noreferrer">vest(🌟 2664)</a>
+                      <span class="utility-links-container"><a href="https://vestjs.dev" class="utility-link font-mono" target="_blank" rel="noopener noreferrer">website</a> <a href="https://www.npmjs.com/package/vest-monorepo" class="utility-link font-mono" target="_blank" rel="noopener noreferrer">npm</a></span>
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://github.com/ealush/emoji-picker-react" class="item-title" target="_blank" rel="noopener noreferrer">emoji-picker-react(🌟 1441)</a>
+                      <span class="utility-links-container"><a href="https://ealush.com/emoji-picker-react" class="utility-link font-mono" target="_blank" rel="noopener noreferrer">website</a> <a href="https://www.npmjs.com/package/emoji-picker-react" class="utility-link font-mono" target="_blank" rel="noopener noreferrer">npm</a></span>
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://github.com/ealush/flairup" class="item-title" target="_blank" rel="noopener noreferrer">flairup(🌟 19)</a>
+                      <span class="utility-links-container"><a href="https://ealush.com/flairup" class="utility-link font-mono" target="_blank" rel="noopener noreferrer">website</a> <a href="https://www.npmjs.com/package/flairup" class="utility-link font-mono" target="_blank" rel="noopener noreferrer">npm</a></span>
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://github.com/ealush/vent" class="item-title" target="_blank" rel="noopener noreferrer">vent(🌟 32)</a>
+                      <span class="utility-links-container"><a href="https://github.com/ealush/vent#readme" class="utility-link font-mono" target="_blank" rel="noopener noreferrer">website</a> <a href="https://www.npmjs.com/package/vent-dom" class="utility-link font-mono" target="_blank" rel="noopener noreferrer">npm</a></span>
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://github.com/ealush/butter-toast" class="item-title" target="_blank" rel="noopener noreferrer">butter-toast(🌟 115)</a>
+                      <span class="utility-links-container"><a href="https://github.com/ealush/butter-toast#readme" class="utility-link font-mono" target="_blank" rel="noopener noreferrer">website</a> <a href="https://www.npmjs.com/package/butter-toast" class="utility-link font-mono" target="_blank" rel="noopener noreferrer">npm</a></span>
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://github.com/ealush/n4s" class="item-title" target="_blank" rel="noopener noreferrer">n4s(🌟 35)</a>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://github.com/ealush/linear-debounce" class="item-title" target="_blank" rel="noopener noreferrer">linear-debounce(🌟 3)</a>
+                      <span class="utility-links-container"><a href="https://github.com/ealush/linear-debounce#readme" class="utility-link font-mono" target="_blank" rel="noopener noreferrer">website</a> <a href="https://www.npmjs.com/package/linear-debounce" class="utility-link font-mono" target="_blank" rel="noopener noreferrer">npm</a></span>
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://github.com/ealush/emoji-picker-textfields-component" class="item-title" target="_blank" rel="noopener noreferrer">emoji-picker-textfields-component(🌟 24)</a>
+                      <span class="utility-links-container"><a href="https://github.com/ealush/emoji-picker-textfields-component#readme" class="utility-link font-mono" target="_blank" rel="noopener noreferrer">website</a> <a href="https://www.npmjs.com/package/emoji-picker-textfield" class="utility-link font-mono" target="_blank" rel="noopener noreferrer">npm</a></span>
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://github.com/ealush/inkbox" class="item-title" target="_blank" rel="noopener noreferrer">inkbox(🌟 7)</a>
+                      <span class="utility-links-container"><a href="https://ealush.github.io/inkbox" class="utility-link font-mono" target="_blank" rel="noopener noreferrer">website</a> <a href="https://www.npmjs.com/package/inkbox" class="utility-link font-mono" target="_blank" rel="noopener noreferrer">npm</a></span>
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://github.com/ealush/cinnamon-sugar" class="item-title" target="_blank" rel="noopener noreferrer">cinnamon-sugar(🌟 5)</a>
+                      <span class="utility-links-container"><a href="https://github.com/ealush/cinnamon-sugar#readme" class="utility-link font-mono" target="_blank" rel="noopener noreferrer">website</a> <a href="https://www.npmjs.com/package/cinnamon-sugar" class="utility-link font-mono" target="_blank" rel="noopener noreferrer">npm</a></span>
+                    </div>
+                    
+                  </li>
+            </ul>
+          </section><section class="links-group">
             <h2>Conferences</h2>
-            <ul>
-            <li><span class="no-link">🇮🇱 React Next TLV - Israel | December 2025</span> </li><li><span class="no-link">🇪🇸 React Alicante - Spain | October 2025</span> </li><li><span class="no-link">🇬🇷 CityJS Athens - Greece | May 2025</span> </li><li><span class="no-link">🇧🇪 DevFest Mons - Belgium | November 2024</span> </li><li><span class="no-link">🇬🇧 React Advanced London - UK | October 2024</span> </li><li><span class="no-link">🇪🇸 React Alicante - Spain | September 2024</span> </li><li><span class="no-link">🇩🇪 code.talks - Germany | September 2024</span> </li><li><span class="no-link">🇮🇱 Node TLV - Israel | June 2024</span> </li><li><span class="no-link">🇮🇱 ReactNext TLV - Israel | June 2024</span> </li><li><span class="no-link">🇸🇬 iJS - Singapore | December 2023</span> </li><li><span class="no-link">🇩🇪 ReactDay Berlin - Germany | December 2023</span> </li><li><span class="no-link">🇧🇪 FullStack Europe - Belgium | October 2023</span> </li><li><span class="no-link">🇩🇪 code.talks - Germany | September 2023</span> </li><li><span class="no-link">🇮🇱 ReactNext TLV - Israel | June 2023</span> </li><li><span class="no-link">🇧🇪 DevDay Mons - Belgium | March 2023</span> </li><li><span class="no-link">🌐 TestJS Summit | October 2022</span> </li><li><span class="no-link">🇩🇪 iJS Munich - Germany | October 2022</span> </li><li><span class="no-link">🇩🇪 code.talks - Germany | September 2022</span> </li><li><span class="no-link">🇵🇱 ConfrontJS - Warsaw | March 2022</span> </li><li><span class="no-link">🌐 JS Congress | November 2021</span> </li><li><span class="no-link">🌐 Svelte Summit | Fall 2021</span> </li><li><span class="no-link">🌐 Vue.JS London | October 2021</span> </li><li><span class="no-link">🌐 Conf 42 Javascript | September 2021</span> </li></ul></div><div>
+            <ul class="links-list">
+            <li class="link-item">
+                    <div class="link-content">
+                      <span class="item-title no-link">🇮🇱 React Next TLV - Israel | December 2025</span>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <span class="item-title no-link">🇪🇸 React Alicante - Spain | October 2025</span>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <span class="item-title no-link">🇬🇷 CityJS Athens - Greece | May 2025</span>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <span class="item-title no-link">🇧🇪 DevFest Mons - Belgium | November 2024</span>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <span class="item-title no-link">🇬🇧 React Advanced London - UK | October 2024</span>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <span class="item-title no-link">🇪🇸 React Alicante - Spain | September 2024</span>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <span class="item-title no-link">🇩🇪 code.talks - Germany | September 2024</span>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <span class="item-title no-link">🇮🇱 Node TLV - Israel | June 2024</span>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <span class="item-title no-link">🇮🇱 ReactNext TLV - Israel | June 2024</span>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <span class="item-title no-link">🇸🇬 iJS - Singapore | December 2023</span>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <span class="item-title no-link">🇩🇪 ReactDay Berlin - Germany | December 2023</span>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <span class="item-title no-link">🇧🇪 FullStack Europe - Belgium | October 2023</span>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <span class="item-title no-link">🇩🇪 code.talks - Germany | September 2023</span>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <span class="item-title no-link">🇮🇱 ReactNext TLV - Israel | June 2023</span>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <span class="item-title no-link">🇧🇪 DevDay Mons - Belgium | March 2023</span>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <span class="item-title no-link">🌐 TestJS Summit | October 2022</span>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <span class="item-title no-link">🇩🇪 iJS Munich - Germany | October 2022</span>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <span class="item-title no-link">🇩🇪 code.talks - Germany | September 2022</span>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <span class="item-title no-link">🇵🇱 ConfrontJS - Warsaw | March 2022</span>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <span class="item-title no-link">🌐 JS Congress | November 2021</span>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <span class="item-title no-link">🌐 Svelte Summit | Fall 2021</span>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <span class="item-title no-link">🌐 Vue.JS London | October 2021</span>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <span class="item-title no-link">🌐 Conf 42 Javascript | September 2021</span>
+                      
+                    </div>
+                    
+                  </li>
+            </ul>
+          </section><section class="links-group">
             <h2>Articles</h2>
-            <ul>
-            <li>
-                  <a href="https://www.smashingmagazine.com/2022/08/react-context-propagation-javascript" target="_blank" rel="noopener noreferrer">Let's Build React Context in Vanilla JS.</a>  <small>Smashing Magazine</small>
-              </li><li>
-                  <a href="https://dev.to/ealush/dead-simple-form-validation-with-vest-5gf8" target="_blank" rel="noopener noreferrer">Dead Simple React Validations with Vest.</a>  
-              </li><li>
-                  <a href="https://dev.to/ealush/fight-validations-spaghetti-with-vest-3i8j" target="_blank" rel="noopener noreferrer">Fight Validations Spaghetti with Vest.</a>  
-              </li><li>
-                  <a href="https://medium.com/fiverr-engineering/creating-apis-for-the-human-developer-c0f51a6d9366" target="_blank" rel="noopener noreferrer">Creating APIs for the human developer</a>  
-              </li><li>
-                  <a href="https://medium.com/fiverr-engineering/writing-a-js-proxy-based-assertion-function-5a7359df9f9b" target="_blank" rel="noopener noreferrer">Writing a JS Proxy based assertion function</a>  
-              </li><li>
-                  <a href="https://medium.com/fiverr-engineering/introducing-passable-45250548afd1" target="_blank" rel="noopener noreferrer">Introducing Passable</a>  
-              </li></ul></div><div>
+            <ul class="links-list">
+            <li class="link-item">
+                    <div class="link-content">
+                      <a href="https://www.smashingmagazine.com/2022/08/react-context-propagation-javascript" class="item-title" target="_blank" rel="noopener noreferrer">Let's Build React Context in Vanilla JS.</a>
+                      
+                    </div>
+                    <span class="item-extra font-mono">Smashing Magazine</span>
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://dev.to/ealush/dead-simple-form-validation-with-vest-5gf8" class="item-title" target="_blank" rel="noopener noreferrer">Dead Simple React Validations with Vest.</a>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://dev.to/ealush/fight-validations-spaghetti-with-vest-3i8j" class="item-title" target="_blank" rel="noopener noreferrer">Fight Validations Spaghetti with Vest.</a>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://medium.com/fiverr-engineering/creating-apis-for-the-human-developer-c0f51a6d9366" class="item-title" target="_blank" rel="noopener noreferrer">Creating APIs for the human developer</a>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://medium.com/fiverr-engineering/writing-a-js-proxy-based-assertion-function-5a7359df9f9b" class="item-title" target="_blank" rel="noopener noreferrer">Writing a JS Proxy based assertion function</a>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://medium.com/fiverr-engineering/introducing-passable-45250548afd1" class="item-title" target="_blank" rel="noopener noreferrer">Introducing Passable</a>
+                      
+                    </div>
+                    
+                  </li>
+            </ul>
+          </section><section class="links-group">
             <h2>Videos</h2>
-            <ul>
-            <li>
-                  <a href="https://www.youtube.com/watch?v=s9nFLWzt4c0" target="_blank" rel="noopener noreferrer">Harness the power of JavaScript Proxies</a>  <small>NodeTLV 2024</small>
-              </li><li>
-                  <a href="https://portal.gitnation.org/contents/css-only-search-improve-react-filtering-performance-with-css" target="_blank" rel="noopener noreferrer">CSS Only* Search: Improve React Filtering Performance with CSS!</a>  <small>React Day Berlin 2023</small>
-              </li><li>
-                  <a href="https://www.youtube.com/watch?v=tt1ZuyoPcFc" target="_blank" rel="noopener noreferrer">Let's Build React Context in Vanilla JS</a>  <small>ReactNext '23</small>
-              </li><li>
-                  <a href="https://www.youtube.com/watch?v=9gthzbVaHYo&t" target="_blank" rel="noopener noreferrer">Building an Assertion Library with Javascript Proxy</a>  <small>Fiverr Talks 2022</small>
-              </li><li>
-                  <a href="https://www.youtube.com/watch?v=X2PuiawaGV4" target="_blank" rel="noopener noreferrer">Up Your Form Validation Game with Vest</a>  <small>Svelte Summit | Fall 2021</small>
-              </li><li>
-                  <a href="https://portal.gitnation.org/contents/vue-form-validations-with-vest" target="_blank" rel="noopener noreferrer">Vue Form Validations with Vest</a>  <small>Vue.js London</small>
-              </li><li>
-                  <a href="https://www.youtube.com/watch?v=2D0LmCtVTSk" target="_blank" rel="noopener noreferrer">What you need to know about contributing to open source</a>  <small>(Hebrew)</small>
-              </li><li>
-                  <a href="https://www.youtube.com/watch?v=mL9ocOBg2y4" target="_blank" rel="noopener noreferrer">It can't be that easy! Form validations with Vest</a>  <small>(Conf42)</small>
-              </li><li>
-                  <a href="https://twitter.com/AlushEvyatar/status/1281297006070284289" target="_blank" rel="noopener noreferrer">Vest Demo</a>  
-              </li><li>
-                  <a href="https://www.youtube.com/watch?v=_R5WfSXBruk" target="_blank" rel="noopener noreferrer">Rethinking form validations</a>  <small>(Hebrew)</small>
-              </li></ul></div><div>
+            <ul class="links-list">
+            <li class="link-item">
+                    <div class="link-content">
+                      <a href="https://www.youtube.com/watch?v=s9nFLWzt4c0" class="item-title" target="_blank" rel="noopener noreferrer">Harness the power of JavaScript Proxies</a>
+                      
+                    </div>
+                    <span class="item-extra font-mono">NodeTLV 2024</span>
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://portal.gitnation.org/contents/css-only-search-improve-react-filtering-performance-with-css" class="item-title" target="_blank" rel="noopener noreferrer">CSS Only* Search: Improve React Filtering Performance with CSS!</a>
+                      
+                    </div>
+                    <span class="item-extra font-mono">React Day Berlin 2023</span>
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://www.youtube.com/watch?v=tt1ZuyoPcFc" class="item-title" target="_blank" rel="noopener noreferrer">Let's Build React Context in Vanilla JS</a>
+                      
+                    </div>
+                    <span class="item-extra font-mono">ReactNext '23</span>
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://www.youtube.com/watch?v=9gthzbVaHYo&t" class="item-title" target="_blank" rel="noopener noreferrer">Building an Assertion Library with Javascript Proxy</a>
+                      
+                    </div>
+                    <span class="item-extra font-mono">Fiverr Talks 2022</span>
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://www.youtube.com/watch?v=X2PuiawaGV4" class="item-title" target="_blank" rel="noopener noreferrer">Up Your Form Validation Game with Vest</a>
+                      
+                    </div>
+                    <span class="item-extra font-mono">Svelte Summit | Fall 2021</span>
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://portal.gitnation.org/contents/vue-form-validations-with-vest" class="item-title" target="_blank" rel="noopener noreferrer">Vue Form Validations with Vest</a>
+                      
+                    </div>
+                    <span class="item-extra font-mono">Vue.js London</span>
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://www.youtube.com/watch?v=2D0LmCtVTSk" class="item-title" target="_blank" rel="noopener noreferrer">What you need to know about contributing to open source</a>
+                      
+                    </div>
+                    <span class="item-extra font-mono">(Hebrew)</span>
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://www.youtube.com/watch?v=mL9ocOBg2y4" class="item-title" target="_blank" rel="noopener noreferrer">It can't be that easy! Form validations with Vest</a>
+                      
+                    </div>
+                    <span class="item-extra font-mono">(Conf42)</span>
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://twitter.com/AlushEvyatar/status/1281297006070284289" class="item-title" target="_blank" rel="noopener noreferrer">Vest Demo</a>
+                      
+                    </div>
+                    
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://www.youtube.com/watch?v=_R5WfSXBruk" class="item-title" target="_blank" rel="noopener noreferrer">Rethinking form validations</a>
+                      
+                    </div>
+                    <span class="item-extra font-mono">(Hebrew)</span>
+                  </li>
+            </ul>
+          </section><section class="links-group">
             <h2>Interviews</h2>
-            <ul>
-            <li>
-                  <a href="https://www.youtube.com/watch?v=AMOz9Kmsmys" target="_blank" rel="noopener noreferrer">Speaking Up: The Developer’s Guide to Conference Talks & Career Growth</a>  <small>Javascript Jabber</small>
-              </li><li>
-                  <a href="https://www.compressed.fm/episode/161" target="_blank" rel="noopener noreferrer">Better Form Validation with Vest</a>  <small>Compressed.FM</small>
-              </li><li>
-                  <a href="https://webrush.io/episodes/episode-261-whos-afraid-of-open-source" target="_blank" rel="noopener noreferrer">Who’s Afraid Of Open Source?</a>  <small>Web Rush Podcast</small>
-              </li><li>
-                  <a href="https://topenddevs.com/podcasts/javascript-jabber/episodes/what-if-your-javascript-validations-looked-like-tests-jsj-597" target="_blank" rel="noopener noreferrer">What if your JavaScript Validations Looked like Tests?</a>  <small>JavaScript Jabber</small>
-              </li><li>
-                  <a href="https://webrush.io/episodes/episode-216-javascript-proxies-with-evyatar-alush" target="_blank" rel="noopener noreferrer">Deep Dive into JavaScript Proxies</a>  <small>Web Rush Podcast</small>
-              </li><li>
-                  <a href="https://webrush.io/episodes/episode-188-wearing-a-vest-is-in-style-with-evyatar-alush" target="_blank" rel="noopener noreferrer">Wearing a Vest is in Style</a>  <small>Web Rush Podcast</small>
-              </li><li>
-                  <a href="https://fedcast.co.il/%D7%9C%D7%9B%D7%9C_%D7%A9%D7%90%D7%9C%D7%94_%D7%AA%D7%A9%D7%95%D7%91%D7%94/1505/%D7%9C%D7%9B%D7%9C-%D7%A9%D7%90%D7%9C%D7%94-%D7%AA%D7%A9%D7%95%D7%91%D7%94-%D7%A2%D7%9D-%D7%90%D7%91%D7%99%D7%AA%D7%A8-%D7%90%D7%9C%D7%95%D7%A9/" target="_blank" rel="noopener noreferrer">Every Question Answered</a>  <small>FED Cast IL (Hebrew)</small>
-              </li><li>
-                  <a href="https://open.spotify.com/episode/2mrcevFlUKAxcUdQ4pyTYj" target="_blank" rel="noopener noreferrer">API Design IRL</a>  <small>Open Source Podcast (Hebrew)</small>
-              </li><li>
-                  <a href="https://changelog.com/jsparty/213" target="_blank" rel="noopener noreferrer">Playing it close to the Vest</a>  <small>JS Party</small>
-              </li><li>
-                  <a href="https://podrocket.logrocket.com/vest" target="_blank" rel="noopener noreferrer">Vest with Evyatar Alush</a>  <small>PodRocket by LogRocket</small>
-              </li><li>
-                  <a href="https://anchor.fm/frontend-greatness/episodes/DX-is-UX-With-Evyatar-e12tco9" target="_blank" rel="noopener noreferrer">DX is UX</a>  <small>Frontend Greatness Podcast</small>
-              </li><li>
-                  <a href="https://reactroundup.com/172" target="_blank" rel="noopener noreferrer">Form Validations and Open Source</a>  <small>React Roundup Podcast</small>
-              </li></ul></div></section>
+            <ul class="links-list">
+            <li class="link-item">
+                    <div class="link-content">
+                      <a href="https://www.youtube.com/watch?v=AMOz9Kmsmys" class="item-title" target="_blank" rel="noopener noreferrer">Speaking Up: The Developer’s Guide to Conference Talks & Career Growth</a>
+                      
+                    </div>
+                    <span class="item-extra font-mono">Javascript Jabber</span>
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://www.compressed.fm/episode/161" class="item-title" target="_blank" rel="noopener noreferrer">Better Form Validation with Vest</a>
+                      
+                    </div>
+                    <span class="item-extra font-mono">Compressed.FM</span>
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://webrush.io/episodes/episode-261-whos-afraid-of-open-source" class="item-title" target="_blank" rel="noopener noreferrer">Who’s Afraid Of Open Source?</a>
+                      
+                    </div>
+                    <span class="item-extra font-mono">Web Rush Podcast</span>
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://topenddevs.com/podcasts/javascript-jabber/episodes/what-if-your-javascript-validations-looked-like-tests-jsj-597" class="item-title" target="_blank" rel="noopener noreferrer">What if your JavaScript Validations Looked like Tests?</a>
+                      
+                    </div>
+                    <span class="item-extra font-mono">JavaScript Jabber</span>
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://webrush.io/episodes/episode-216-javascript-proxies-with-evyatar-alush" class="item-title" target="_blank" rel="noopener noreferrer">Deep Dive into JavaScript Proxies</a>
+                      
+                    </div>
+                    <span class="item-extra font-mono">Web Rush Podcast</span>
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://webrush.io/episodes/episode-188-wearing-a-vest-is-in-style-with-evyatar-alush" class="item-title" target="_blank" rel="noopener noreferrer">Wearing a Vest is in Style</a>
+                      
+                    </div>
+                    <span class="item-extra font-mono">Web Rush Podcast</span>
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://fedcast.co.il/%D7%9C%D7%9B%D7%9C_%D7%A9%D7%90%D7%9C%D7%94_%D7%AA%D7%A9%D7%95%D7%91%D7%94/1505/%D7%9C%D7%9B%D7%9C-%D7%A9%D7%90%D7%9C%D7%94-%D7%AA%D7%A9%D7%95%D7%91%D7%94-%D7%A2%D7%9D-%D7%90%D7%91%D7%99%D7%AA%D7%A8-%D7%90%D7%9C%D7%95%D7%A9/" class="item-title" target="_blank" rel="noopener noreferrer">Every Question Answered</a>
+                      
+                    </div>
+                    <span class="item-extra font-mono">FED Cast IL (Hebrew)</span>
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://open.spotify.com/episode/2mrcevFlUKAxcUdQ4pyTYj" class="item-title" target="_blank" rel="noopener noreferrer">API Design IRL</a>
+                      
+                    </div>
+                    <span class="item-extra font-mono">Open Source Podcast (Hebrew)</span>
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://changelog.com/jsparty/213" class="item-title" target="_blank" rel="noopener noreferrer">Playing it close to the Vest</a>
+                      
+                    </div>
+                    <span class="item-extra font-mono">JS Party</span>
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://podrocket.logrocket.com/vest" class="item-title" target="_blank" rel="noopener noreferrer">Vest with Evyatar Alush</a>
+                      
+                    </div>
+                    <span class="item-extra font-mono">PodRocket by LogRocket</span>
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://anchor.fm/frontend-greatness/episodes/DX-is-UX-With-Evyatar-e12tco9" class="item-title" target="_blank" rel="noopener noreferrer">DX is UX</a>
+                      
+                    </div>
+                    <span class="item-extra font-mono">Frontend Greatness Podcast</span>
+                  </li><li class="link-item">
+                    <div class="link-content">
+                      <a href="https://reactroundup.com/172" class="item-title" target="_blank" rel="noopener noreferrer">Form Validations and Open Source</a>
+                      
+                    </div>
+                    <span class="item-extra font-mono">React Roundup Podcast</span>
+                  </li>
+            </ul>
+          </section>
+    </main>
   </div>
 </body>
 

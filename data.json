@@ -1826,7 +1826,8 @@
         "primary_url": "https://github.com/ealush/vest",
         "original_title": "ealush/vest",
         "entity_type": "Project or Package",
-        "updatedAt": 1784073600000
+        "updatedAt": 1784073600000,
+        "stars": 2664
       },
       {
         "verification_summary": "GitHub/NPM repository under ealush | Name found on page The social-source audit added first-party, organizer, host, or attendee evidence for this resource.",
@@ -1850,7 +1851,8 @@
         "primary_url": "https://github.com/ealush/emoji-picker-react",
         "original_title": "ealush/emoji-picker-react",
         "entity_type": "Project or Package",
-        "updatedAt": 1781049600000
+        "updatedAt": 1781049600000,
+        "stars": 1441
       },
       {
         "verification_summary": "GitHub/NPM repository under ealush | Name found on page",
@@ -1873,7 +1875,8 @@
         "primary_url": "https://github.com/ealush/flairup",
         "original_title": "ealush/flairup",
         "entity_type": "Project or Package",
-        "updatedAt": 1763596800000
+        "updatedAt": 1763596800000,
+        "stars": 19
       },
       {
         "verification_summary": "Name found on page",
@@ -1895,7 +1898,8 @@
         "primary_url": "https://github.com/ealush/vent",
         "original_title": "",
         "entity_type": "Project or Package",
-        "updatedAt": 1747267200000
+        "updatedAt": 1747267200000,
+        "stars": 32
       },
       {
         "verification_summary": "Name found on page",
@@ -1917,7 +1921,29 @@
         "primary_url": "https://github.com/ealush/butter-toast",
         "original_title": "",
         "entity_type": "Project or Package",
-        "updatedAt": 1727740800000
+        "updatedAt": 1727740800000,
+        "stars": 115
+      },
+      {
+        "verification_summary": "GitHub/NPM repository under ealush",
+        "confidence": "High",
+        "date": "",
+        "index_notes": "Single source.",
+        "_family": "projects",
+        "id": "EA-PROJECT-007",
+        "canonical_title": "ealush/wait",
+        "verification_status": "confirmed",
+        "date_precision": "unknown",
+        "language": "English",
+        "related_urls": [],
+        "topics": [],
+        "role": "Creator/Owner",
+        "publisher_or_event": "GitHub",
+        "primary_url": "https://github.com/ealush/wait",
+        "original_title": "ealush/wait",
+        "entity_type": "Project or Package",
+        "stars": 16,
+        "updatedAt": 1725148800000
       },
       {
         "verification_summary": "Name found on page",
@@ -1940,7 +1966,8 @@
         "primary_url": "https://github.com/ealush/inkbox",
         "original_title": "",
         "entity_type": "Project or Package",
-        "updatedAt": 1701388800000
+        "updatedAt": 1701388800000,
+        "stars": 7
       },
       {
         "verification_summary": "GitHub/NPM repository under ealush",
@@ -1962,26 +1989,8 @@
         "primary_url": "https://github.com/ealush/context",
         "original_title": "ealush/context",
         "entity_type": "Project or Package",
-        "updatedAt": 1640995200000
-      },
-      {
-        "verification_summary": "GitHub/NPM repository under ealush",
-        "confidence": "High",
-        "date": "",
-        "index_notes": "Single source.",
-        "_family": "projects",
-        "id": "EA-PROJECT-007",
-        "canonical_title": "ealush/wait",
-        "verification_status": "confirmed",
-        "date_precision": "unknown",
-        "language": "English",
-        "related_urls": [],
-        "topics": [],
-        "role": "Creator/Owner",
-        "publisher_or_event": "GitHub",
-        "primary_url": "https://github.com/ealush/wait",
-        "original_title": "ealush/wait",
-        "entity_type": "Project or Package"
+        "updatedAt": 1640995200000,
+        "stars": 3
       },
       {
         "verification_summary": "GitHub/NPM repository under ealush",
@@ -2002,7 +2011,9 @@
         "publisher_or_event": "GitHub",
         "primary_url": "https://github.com/ealush/passable",
         "original_title": "ealush/passable",
-        "entity_type": "Project or Package"
+        "entity_type": "Project or Package",
+        "stars": 35,
+        "updatedAt": 1630454400000
       },
       {
         "verification_summary": "Name found on page",
@@ -2023,7 +2034,9 @@
         "publisher_or_event": "GitHub",
         "primary_url": "https://github.com/ealush/cinnamon-sugar",
         "original_title": "",
-        "entity_type": "Project or Package"
+        "entity_type": "Project or Package",
+        "stars": 5,
+        "updatedAt": 1627776000000
       }
     ],
     "profiles": [
